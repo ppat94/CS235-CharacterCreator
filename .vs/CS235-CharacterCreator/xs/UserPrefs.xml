@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{B45D76DC-1581-3E0C-A090-A5F46BD7B55E}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SceneChanger.cs">
+    <Files>
+      <File FileName="Assets/Scripts/SceneChanger.cs" Line="13" Column="27" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CS235-CharacterCreator" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="SceneChanger.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="3b654762-ad71-4155-ba3c-50e0d0df0f0a" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
