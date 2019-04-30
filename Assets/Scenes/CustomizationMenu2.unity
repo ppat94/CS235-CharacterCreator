@@ -245,21 +245,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6658416642752955532, guid: 681bf423f97db478c9e5db7c1f0c798b,
-        type: 3}
-      propertyPath: m_Name
-      value: Female Btn
-      objectReference: {fileID: 0}
-    - target: {fileID: 6658416644155581254, guid: 681bf423f97db478c9e5db7c1f0c798b,
-        type: 3}
-      propertyPath: m_Text
-      value: Female
-      objectReference: {fileID: 0}
-    - target: {fileID: 6658416642884494856, guid: 681bf423f97db478c9e5db7c1f0c798b,
-        type: 3}
-      propertyPath: m_Name
-      value: Male Btn
-      objectReference: {fileID: 0}
     - target: {fileID: 6658416642884494862, guid: 681bf423f97db478c9e5db7c1f0c798b,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -270,10 +255,35 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: OnBtnClick
       objectReference: {fileID: 0}
+    - target: {fileID: 6658416642510017576, guid: 681bf423f97db478c9e5db7c1f0c798b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658416642752955532, guid: 681bf423f97db478c9e5db7c1f0c798b,
+        type: 3}
+      propertyPath: m_Name
+      value: Female Btn
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658416642884494856, guid: 681bf423f97db478c9e5db7c1f0c798b,
+        type: 3}
+      propertyPath: m_Name
+      value: Male Btn
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658416642195953728, guid: 681bf423f97db478c9e5db7c1f0c798b,
+        type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: dc3796dcd49fa40d986cdaadb44d8476, type: 3}
     - target: {fileID: 6658416643844753107, guid: 681bf423f97db478c9e5db7c1f0c798b,
         type: 3}
       propertyPath: m_Text
       value: Male
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658416644155581254, guid: 681bf423f97db478c9e5db7c1f0c798b,
+        type: 3}
+      propertyPath: m_Text
+      value: Female
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 681bf423f97db478c9e5db7c1f0c798b, type: 3}

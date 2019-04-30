@@ -406,6 +406,21 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: OnBtnClick
       objectReference: {fileID: 0}
+    - target: {fileID: 6658416642510017576, guid: 681bf423f97db478c9e5db7c1f0c798b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658416643418654597, guid: 681bf423f97db478c9e5db7c1f0c798b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658416642195953728, guid: 681bf423f97db478c9e5db7c1f0c798b,
+        type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: dc3796dcd49fa40d986cdaadb44d8476, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 681bf423f97db478c9e5db7c1f0c798b, type: 3}
 --- !u!114 &7519850074943508987 stripped
