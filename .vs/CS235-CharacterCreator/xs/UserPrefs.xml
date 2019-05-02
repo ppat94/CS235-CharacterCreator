@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{B45D76DC-1581-3E0C-A090-A5F46BD7B55E}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SceneChanger.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ButtonHover.cs">
     <Files>
       <File FileName="Assets/Scripts/SceneChanger.cs" Line="13" Column="27" />
+      <File FileName="Assets/Scripts/ButtonHover.cs" Line="10" Column="25" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -9,7 +10,7 @@
           <Node name="CS235-CharacterCreator" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="SceneChanger.cs" selected="True" />
+                <Node name="ButtonHover.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -19,7 +20,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="108054fe-9d5a-4f0b-b696-e4a23f4fe4ea" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="fc7d3f62-30dd-4993-8bd6-a2d1a433d53a" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

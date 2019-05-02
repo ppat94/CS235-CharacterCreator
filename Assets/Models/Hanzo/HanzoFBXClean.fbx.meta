@@ -1,0 +1,190 @@
+fileFormatVersion: 2
+guid: 0e20f2128649a40af9e08cdd8fa2e488
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: CINEMA_4D_Editor
+    100002: //RootNode
+    100004: Mesh_0395
+    100006: Mesh_0396
+    100008: Mesh_0398
+    100010: Mesh_0399
+    100012: Mesh_0400
+    100014: Mesh_0401
+    100016: Mesh_0402
+    100018: Mesh_0435
+    100020: Mesh_0436
+    100022: Mesh_0439
+    100024: Mesh_0440
+    100026: Mesh_0441
+    100028: Mesh_0442
+    100030: Mesh_0443
+    100032: Mesh_0444
+    100034: Null
+    100036: Null_2
+    400000: CINEMA_4D_Editor
+    400002: //RootNode
+    400004: Mesh_0395
+    400006: Mesh_0396
+    400008: Mesh_0398
+    400010: Mesh_0399
+    400012: Mesh_0400
+    400014: Mesh_0401
+    400016: Mesh_0402
+    400018: Mesh_0435
+    400020: Mesh_0436
+    400022: Mesh_0439
+    400024: Mesh_0440
+    400026: Mesh_0441
+    400028: Mesh_0442
+    400030: Mesh_0443
+    400032: Mesh_0444
+    400034: Null
+    400036: Null_2
+    2000000: CINEMA_4D_Editor
+    2100000: Tex_2410_0.dds
+    2100002: Tex_2422_0.dds
+    2100004: Tex_2422_0.dds.1
+    2100006: Tex_2422_0.dds.2
+    2100008: Tex_2470_0.dds
+    2100010: Tex_2470_0.dds.1
+    2100012: Tex_2496_0.dds
+    2100014: Tex_2832_0.dds
+    2100016: Tex_2832_0.dds.1
+    2100018: Tex_1924_2.dds
+    2100020: Tex_2838_5.dds
+    2100022: Tex_2838_5.dds.1
+    2100024: Tex_2832_0.dds.2
+    2100026: Tex_2832_0.dds.3
+    2100028: Tex_2969_0.dds
+    2300000: Mesh_0395
+    2300002: Mesh_0396
+    2300004: Mesh_0398
+    2300006: Mesh_0399
+    2300008: Mesh_0400
+    2300010: Mesh_0401
+    2300012: Mesh_0402
+    2300014: Mesh_0435
+    2300016: Mesh_0436
+    2300018: Mesh_0439
+    2300020: Mesh_0440
+    2300022: Mesh_0441
+    2300024: Mesh_0442
+    2300026: Mesh_0443
+    2300028: Mesh_0444
+    3300000: Mesh_0395
+    3300002: Mesh_0396
+    3300004: Mesh_0398
+    3300006: Mesh_0399
+    3300008: Mesh_0400
+    3300010: Mesh_0401
+    3300012: Mesh_0402
+    3300014: Mesh_0435
+    3300016: Mesh_0436
+    3300018: Mesh_0439
+    3300020: Mesh_0440
+    3300022: Mesh_0441
+    3300024: Mesh_0442
+    3300026: Mesh_0443
+    3300028: Mesh_0444
+    4300000: Mesh_0395
+    4300002: Mesh_0396
+    4300004: Mesh_0398
+    4300006: Mesh_0399
+    4300008: Mesh_0400
+    4300010: Mesh_0401
+    4300012: Mesh_0402
+    4300014: Mesh_0435
+    4300016: Mesh_0436
+    4300018: Mesh_0439
+    4300020: Mesh_0440
+    4300022: Mesh_0441
+    4300024: Mesh_0442
+    4300026: Mesh_0443
+    4300028: Mesh_0444
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
