@@ -2,20 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HairButton : BaseButtonBehavior {
+public class BodyButton : BaseButtonBehavior {
 
-    public HairButton() : base() {
-        targetModelPos = new Vector3(450.4f, 167f, -833.7f);
-    }
+    public BodyButton() : base() {}
 
     public override void OnClick() {
         bool isPanelActive = panelTransform.gameObject.activeInHierarchy;
         panelTransform.gameObject.SetActive(!isPanelActive);
         Reset();
         StartCoroutine(ExpandPanel());
-        StartCoroutine(FadePanel());
-        StartCoroutine(ExpandModel());
     }
 }
-
-

@@ -2,17 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FaceButton : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+public class FaceButton : BaseButtonBehavior {
+
+    public FaceButton() : base() {
+        targetModelPos = new Vector3(450.4f, 167f, -833.7f);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    public override void OnClick() {
+        bool isPanelActive = panelTransform.gameObject.activeInHierarchy;
+        panelTransform.gameObject.SetActive(!isPanelActive);
+        Reset();
+        StartCoroutine(ExpandPanel());
+        StartCoroutine(ExpandModel());
     }
 }
