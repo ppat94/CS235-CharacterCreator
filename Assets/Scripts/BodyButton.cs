@@ -2,14 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BodyButton : BaseButtonBehavior {
+public class BodyButton : BaseButton {
 
-    public BodyButton() : base() {}
+    public void Awake() {
+        ButtonController.AddToList(this);
+    }
 
     public override void OnClick() {
-        bool isPanelActive = panelTransform.gameObject.activeInHierarchy;
-        panelTransform.gameObject.SetActive(!isPanelActive);
-        Reset();
+        BaseButton prevButton = ButtonController.GetPrevButton();
+        if (prevButton == this) return; // do nothing if same button as before
+
+        ButtonController.Deactivate(this);
+        panelTransform.gameObject.SetActive(true);
         StartCoroutine(ExpandPanel());
+
+        if (prevButton == null) return;
+        else if (prevButton is HairButton || prevButton is FaceButton) {
+            StartCoroutine(ShrinkModel());
+        }
     }
 }

@@ -2,19 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HairButton : BaseButtonBehavior {
+public class HairButton : BaseButton {
 
-    public HairButton() : base() {
-        targetModelPos = new Vector3(450.4f, 167f, -833.7f);
+    public void Awake() {
+        ButtonController.AddToList(this);
     }
 
     public override void OnClick() {
-        bool isPanelActive = panelTransform.gameObject.activeInHierarchy;
-        panelTransform.gameObject.SetActive(!isPanelActive);
-        Reset();
+        BaseButton prevButton = ButtonController.GetPrevButton();
+        if (prevButton == this) return; // do nothing if same button as before
+
+        ButtonController.Deactivate(this);
+        panelTransform.gameObject.SetActive(true);
         StartCoroutine(ExpandPanel());
-        StartCoroutine(FadePanel());
-        StartCoroutine(ExpandModel());
+
+        if (prevButton == null) StartCoroutine(ExpandModel());
+        else if (prevButton == this || prevButton is FaceButton) return;
+        else StartCoroutine(ExpandModel());
     }
 }
 

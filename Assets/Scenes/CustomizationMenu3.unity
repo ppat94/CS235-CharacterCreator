@@ -1078,8 +1078,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: 
+      - m_Target: {fileID: 604683947}
+        m_MethodName: OnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1140,9 +1140,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b03948952b750844bb9ee69574b63ce0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hairBtn: {fileID: 0}
-  model: {fileID: 0}
-  panelTransform: {fileID: 0}
+  button: {fileID: 604683942}
+  model: {fileID: 787211736}
+  panelTransform: {fileID: 972995641}
 --- !u!1 &616888689
 GameObject:
   m_ObjectHideFlags: 0
@@ -1936,7 +1936,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98bd689612adade4f9c247c56a74f806, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hairBtn: {fileID: 905040814}
+  button: {fileID: 905040814}
   model: {fileID: 787211736}
   panelTransform: {fileID: 1406537829}
 --- !u!1 &921374874
@@ -2820,6 +2820,7 @@ GameObject:
   - component: {fileID: 1409502762}
   - component: {fileID: 1409502761}
   - component: {fileID: 1409502760}
+  - component: {fileID: 1409502763}
   m_Layer: 5
   m_Name: Body Btn
   m_TagString: Untagged
@@ -2887,8 +2888,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: 
+      - m_Target: {fileID: 1409502763}
+        m_MethodName: OnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2937,6 +2938,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1409502758}
   m_CullTransparentMesh: 0
+--- !u!114 &1409502763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1409502758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 921cce23c036c0c42a8d7ba5b22ef8f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button: {fileID: 1409502758}
+  model: {fileID: 787211736}
+  panelTransform: {fileID: 138950042}
 --- !u!1 &1436515601
 GameObject:
   m_ObjectHideFlags: 0
@@ -3418,11 +3434,11 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 1
+  m_isInputParsingRequired: 0
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
@@ -5957,7 +5973,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d4c5a7a75b953549ba0f02115a258eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hairBtn: {fileID: 6658416642476117213}
+  button: {fileID: 6658416642476117213}
   model: {fileID: 787211736}
   panelTransform: {fileID: 1267675557}
 --- !u!222 &6658416642728249296
@@ -6308,6 +6324,7 @@ GameObject:
   - component: {fileID: 6658416643232064121}
   - component: {fileID: 6658416643232064120}
   - component: {fileID: 6658416643232064119}
+  - component: {fileID: 6658416643232064123}
   m_Layer: 0
   m_Name: SceneChanger
   m_TagString: Untagged
@@ -6315,6 +6332,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &6658416643232064123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6658416643232064122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c46857b451a3b544ea71c5932eabb41e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &6658416643696307206
 MonoBehaviour:
   m_ObjectHideFlags: 0
