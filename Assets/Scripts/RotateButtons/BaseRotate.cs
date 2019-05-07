@@ -9,10 +9,9 @@ public class BaseRotate : MonoBehaviour {
 
     protected readonly float rotationSpeed = 150f;
 
-    protected IEnumerator RotateModel(float rotationSpeed) {
+    protected IEnumerator RotateModel(float turnSpeed) {
         while (isDown) {
-            //rotate model about y axis to the left
-            model.transform.Rotate(Vector3.up, rotationSpeed * Time.deltaTime);
+            model.transform.Rotate(Vector3.up, turnSpeed * Time.deltaTime);
             yield return null;
         }
 
