@@ -2,15 +2,16 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 5
+  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: challenger_eyes
-  m_Shader: {fileID: 4800000, guid: b5f9959f7b6042c4eac31c2b58eb6cc2, type: 3}
-  m_ShaderKeywords: EYE_OFF _LIGHTMAPPING_REALTIME _SPECGLOSSMAP
+  m_Shader: {fileID: 4800000, guid: cc77cd34d845f4a479ddec96dd10a3f9, type: 3}
+  m_ShaderKeywords: _DETAIL_MULX2 _LIGHTMAPPING_REALTIME _NORMALMAP _SPECGLOSSMAP
   m_LightmapFlags: 5
   m_CustomRenderQueue: -1
+  stringTagMap: {}
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
@@ -18,7 +19,7 @@ Material:
         first:
           name: _MainTex
         second:
-          m_Texture: {fileID: 2800000, guid: 6477f23052546e3468ae88bab181fc84, type: 3}
+          m_Texture: {fileID: 2800000, guid: e908a97418bbd80429da0e4f4fe82b0b, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -37,6 +38,13 @@ Material:
           m_Offset: {x: 0, y: 0}
       data:
         first:
+          name: _EmissionMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
           name: _ParallaxMap
         second:
           m_Texture: {fileID: 0}
@@ -44,16 +52,9 @@ Material:
           m_Offset: {x: 0, y: 0}
       data:
         first:
-          name: _OcclusionMap
+          name: _SpecGlossMap
         second:
-          m_Texture: {fileID: 0}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-      data:
-        first:
-          name: _EmissionMap
-        second:
-          m_Texture: {fileID: 0}
+          m_Texture: {fileID: 2800000, guid: 06839874ae17dbe4ba573070b04d84fb, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -72,9 +73,9 @@ Material:
           m_Offset: {x: 0, y: 0}
       data:
         first:
-          name: _Occlusion
+          name: _OcclusionMap
         second:
-          m_Texture: {fileID: 2800000, guid: a53cd3661bc370d4b8f26e23cc135050, type: 3}
+          m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -86,9 +87,9 @@ Material:
           m_Offset: {x: 0, y: 0}
       data:
         first:
-          name: _SpecGlossMap
+          name: _Occlusion
         second:
-          m_Texture: {fileID: 2800000, guid: 06839874ae17dbe4ba573070b04d84fb, type: 3}
+          m_Texture: {fileID: 2800000, guid: a53cd3661bc370d4b8f26e23cc135050, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -101,20 +102,20 @@ Material:
     m_Floats:
       data:
         first:
-          name: _Cutoff
-        second: .5
-      data:
-        first:
-          name: _AlphaTestRef
-        second: .5
-      data:
-        first:
           name: _SrcBlend
         second: 1
       data:
         first:
           name: _DstBlend
         second: 0
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+      data:
+        first:
+          name: _AlphaTestRef
+        second: .5
       data:
         first:
           name: _Parallax
@@ -145,12 +146,12 @@ Material:
         second: 0
       data:
         first:
-          name: _EmissionScaleUI
-        second: 1
-      data:
-        first:
           name: _Mode
         second: 0
+      data:
+        first:
+          name: _EmissionScaleUI
+        second: 1
       data:
         first:
           name: _Metallic
@@ -161,16 +162,8 @@ Material:
         second: 1
       data:
         first:
-          name: _PlaneReflectionBumpScale
-        second: .400000006
-      data:
-        first:
-          name: _PlaneReflectionBumpClamp
-        second: .0500000007
-      data:
-        first:
-          name: _CullMode
-        second: 2
+          name: _SmoothnessInAlbedo
+        second: 0
       data:
         first:
           name: _SmoothnessTweak1
@@ -181,20 +174,28 @@ Material:
         second: 0
       data:
         first:
-          name: _ProbesBoost
-        second: 1
+          name: _CullMode
+        second: 2
       data:
         first:
-          name: _EmissionTemperature
-        second: 0
+          name: _PlaneReflectionBumpScale
+        second: .400000006
+      data:
+        first:
+          name: _PlaneReflectionBumpClamp
+        second: .0500000007
       data:
         first:
           name: _Orthonormalize
         second: 0
       data:
         first:
-          name: _SmoothnessInAlbedo
+          name: _EmissionTemperature
         second: 0
+      data:
+        first:
+          name: _ProbesBoost
+        second: 1
     m_Colors:
       data:
         first:
@@ -218,9 +219,13 @@ Material:
         second: {r: 1, g: 1, b: 1, a: 1}
       data:
         first:
+          name: _SpecularMapColorTweak
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
           name: _SpecularColor
         second: {r: .200000003, g: .200000003, b: .200000003, a: 1}
       data:
         first:
-          name: _SpecularMapColorTweak
-        second: {r: 1, g: 1, b: 1, a: 1}
+          name: _SmoothnessTweaks
+        second: {r: 1, g: 0, b: 0, a: 0}
