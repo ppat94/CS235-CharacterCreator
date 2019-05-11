@@ -10,8 +10,8 @@ public abstract class BaseButton : MonoBehaviour {
 
     protected Vector3 targetPanelScale = new Vector3(0.3f, 0.6f, 0.5f);
     protected Vector3 startingPanelScale = new Vector3(0f, 0f, 0f);
-    protected Vector3 targetModelPos = new Vector3(450.4f, 167f, -833.7f);
-    protected Vector3 startingModelPos = new Vector3(461, 179, -771);
+    protected Vector3 targetModelPos = new Vector3(2.71f, 0f, 0.44f);
+    protected Vector3 startingModelPos = new Vector3(0.4f, 0f, 1.41f);
     protected Color panelColor;
     protected readonly float panelExpandSpeed = 2.5f;
     protected readonly float modelExpandSpeed = 2.5f;
