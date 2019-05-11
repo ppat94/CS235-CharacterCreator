@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿
 using UnityEngine;
 
 public class HairButton : BaseButton {
@@ -8,17 +7,14 @@ public class HairButton : BaseButton {
         ButtonController.AddToList(this);
     }
 
-    public override void OnClick() {
-        BaseButton prevButton = ButtonController.GetPrevButton();
-        if (prevButton == this) return; // do nothing if same button as before
+    public void OnClick() {
+        InitButton();
+        if (!isPanelActive) return;
 
-        ButtonController.Deactivate(this);
-        panelTransform.gameObject.SetActive(true);
-        StartCoroutine(ExpandPanel());
+        if (modelIsZoomed) return;
+        StartCoroutine(ZoomInModel());
 
-        if (prevButton == null) StartCoroutine(ExpandModel());
-        else if (prevButton == this || prevButton is FaceButton) return;
-        else StartCoroutine(ExpandModel());
+
     }
 }
 
