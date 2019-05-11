@@ -8,17 +8,10 @@ public class BodyButton : BaseButton {
         ButtonController.AddToList(this);
     }
 
-    public override void OnClick() {
-        BaseButton prevButton = ButtonController.GetPrevButton();
-        if (prevButton == this) return; // do nothing if same button as before
+    public void OnClick() {
+        InitButton();
+        if (!isPanelActive) return;
 
-        ButtonController.Deactivate(this);
-        panelTransform.gameObject.SetActive(true);
-        StartCoroutine(ExpandPanel());
-
-        if (prevButton == null) return;
-        else if (prevButton is HairButton || prevButton is FaceButton) {
-            StartCoroutine(ShrinkModel());
-        }
+        if (modelIsZoomed) StartCoroutine(ZoomOutModel());
     }
 }

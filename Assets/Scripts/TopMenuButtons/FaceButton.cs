@@ -8,16 +8,11 @@ public class FaceButton : BaseButton {
         ButtonController.AddToList(this);
     }
 
-    public override void OnClick() {
-        BaseButton prevButton = ButtonController.GetPrevButton();
-        if (prevButton == this) return; // do nothing if same button as before
+    public void OnClick() {
+        InitButton();
+        if (!isPanelActive) return;
 
-        ButtonController.Deactivate(this);
-        panelTransform.gameObject.SetActive(true);
-        StartCoroutine(ExpandPanel());
-
-        if (prevButton == null) StartCoroutine(ExpandModel());
-        else if (prevButton == this || prevButton is HairButton) return;
-        else StartCoroutine(ExpandModel());
+        if (modelIsZoomed) return;
+        StartCoroutine(ZoomInModel());
     }
 }
