@@ -1826,6 +1826,7 @@ GameObject:
   - component: {fileID: 68189096}
   - component: {fileID: 68189095}
   - component: {fileID: 68189094}
+  - component: {fileID: 68189097}
   m_Layer: 5
   m_Name: HairSlot4
   m_TagString: Untagged
@@ -1896,7 +1897,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 68189095}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 68189097}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &68189095
@@ -1936,6 +1948,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 68189092}
   m_CullTransparentMesh: 0
+--- !u!114 &68189097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 68189092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6397604074585b84a97011a5256ddb22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assignedStyle: {fileID: 100148, guid: 53030f70574da2845b2ec84ad78929b8, type: 3}
+  activeStyle: {fileID: 252827275}
+  modelTransform: {fileID: 1830724193}
 --- !u!1 &92329388
 GameObject:
   m_ObjectHideFlags: 0
@@ -5769,6 +5796,7 @@ GameObject:
   - component: {fileID: 269132802}
   - component: {fileID: 269132801}
   - component: {fileID: 269132800}
+  - component: {fileID: 269132803}
   m_Layer: 5
   m_Name: HairSlot3
   m_TagString: Untagged
@@ -5839,7 +5867,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 269132801}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 269132803}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &269132801
@@ -5879,6 +5918,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 269132798}
   m_CullTransparentMesh: 0
+--- !u!114 &269132803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 269132798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6397604074585b84a97011a5256ddb22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assignedStyle: {fileID: 100148, guid: e2dd49fa7bcece54ab63ab59dc98e5e8, type: 3}
+  activeStyle: {fileID: 252827275}
+  modelTransform: {fileID: 1830724193}
 --- !u!1 &272187135
 GameObject:
   m_ObjectHideFlags: 0
@@ -16232,6 +16286,7 @@ GameObject:
   - component: {fileID: 716663806}
   - component: {fileID: 716663805}
   - component: {fileID: 716663804}
+  - component: {fileID: 716663807}
   m_Layer: 5
   m_Name: BeardSlot3
   m_TagString: Untagged
@@ -16302,7 +16357,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 716663805}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 716663807}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &716663805
@@ -16342,6 +16408,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 716663802}
   m_CullTransparentMesh: 0
+--- !u!114 &716663807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 716663802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d8c59389ecc97048891085a5d6deb3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assignedStyle: {fileID: 100148, guid: 15ac35454c4942240aed028522b5890b, type: 3}
+  activeStyle: {fileID: 3276843415530535251}
+  modelTransform: {fileID: 1830724193}
 --- !u!1 &718891405
 GameObject:
   m_ObjectHideFlags: 0
@@ -19222,6 +19303,7 @@ GameObject:
   - component: {fileID: 869644245}
   - component: {fileID: 869644244}
   - component: {fileID: 869644243}
+  - component: {fileID: 869644246}
   m_Layer: 5
   m_Name: BeardSlot4
   m_TagString: Untagged
@@ -19292,7 +19374,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 869644244}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 869644246}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &869644244
@@ -19332,6 +19425,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 869644241}
   m_CullTransparentMesh: 0
+--- !u!114 &869644246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 869644241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d8c59389ecc97048891085a5d6deb3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assignedStyle: {fileID: 100148, guid: 3294a78391abc344a9485ed28af8a578, type: 3}
+  activeStyle: {fileID: 3276843415530535251}
+  modelTransform: {fileID: 1830724193}
 --- !u!1 &877246319
 GameObject:
   m_ObjectHideFlags: 0
@@ -26349,6 +26457,7 @@ GameObject:
   - component: {fileID: 1158641742}
   - component: {fileID: 1158641741}
   - component: {fileID: 1158641745}
+  - component: {fileID: 1158641744}
   m_Layer: 5
   m_Name: HairSlot1
   m_TagString: Untagged
@@ -26418,7 +26527,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1158641742}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1158641744}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1158641742
@@ -26458,6 +26578,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1158641739}
   m_CullTransparentMesh: 0
+--- !u!114 &1158641744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158641739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6397604074585b84a97011a5256ddb22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assignedStyle: {fileID: 100148, guid: 35c8719cd49587643aab6138c8191f72, type: 3}
+  activeStyle: {fileID: 252827275}
+  modelTransform: {fileID: 1830724193}
 --- !u!23 &1158641745
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -27689,6 +27824,7 @@ GameObject:
   - component: {fileID: 1203860232}
   - component: {fileID: 1203860231}
   - component: {fileID: 1203860230}
+  - component: {fileID: 1203860233}
   m_Layer: 5
   m_Name: BeardSlot2
   m_TagString: Untagged
@@ -27759,7 +27895,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1203860231}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1203860233}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1203860231
@@ -27799,6 +27946,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1203860228}
   m_CullTransparentMesh: 0
+--- !u!114 &1203860233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1203860228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d8c59389ecc97048891085a5d6deb3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assignedStyle: {fileID: 100148, guid: 6b8fd01a19214374999dfb76824d2e73, type: 3}
+  activeStyle: {fileID: 3276843415530535251}
+  modelTransform: {fileID: 1830724193}
 --- !u!1 &1205861424
 GameObject:
   m_ObjectHideFlags: 0
@@ -27847,6 +28009,7 @@ GameObject:
   - component: {fileID: 1207292566}
   - component: {fileID: 1207292565}
   - component: {fileID: 1207292564}
+  - component: {fileID: 1207292567}
   m_Layer: 5
   m_Name: HairSlot7
   m_TagString: Untagged
@@ -27917,7 +28080,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1207292565}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1207292567}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1207292565
@@ -27957,6 +28131,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1207292562}
   m_CullTransparentMesh: 0
+--- !u!114 &1207292567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207292562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6397604074585b84a97011a5256ddb22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assignedStyle: {fileID: 100148, guid: c449b005d7042184c9bc4a41d0f3774c, type: 3}
+  activeStyle: {fileID: 252827275}
+  modelTransform: {fileID: 1830724193}
 --- !u!1 &1222026109
 GameObject:
   m_ObjectHideFlags: 0
@@ -29062,6 +29251,7 @@ GameObject:
   - component: {fileID: 1255942414}
   - component: {fileID: 1255942413}
   - component: {fileID: 1255942412}
+  - component: {fileID: 1255942415}
   m_Layer: 5
   m_Name: HairSlot2
   m_TagString: Untagged
@@ -29132,7 +29322,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1255942413}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1255942415}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1255942413
@@ -29172,6 +29373,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1255942410}
   m_CullTransparentMesh: 0
+--- !u!114 &1255942415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1255942410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6397604074585b84a97011a5256ddb22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assignedStyle: {fileID: 100148, guid: 2c93e4bb5eec06b4aa9843e65cd90cfe, type: 3}
+  activeStyle: {fileID: 252827275}
+  modelTransform: {fileID: 1830724193}
 --- !u!1 &1256913839
 GameObject:
   m_ObjectHideFlags: 0
@@ -30058,6 +30274,7 @@ GameObject:
   - component: {fileID: 1303983552}
   - component: {fileID: 1303983551}
   - component: {fileID: 1303983550}
+  - component: {fileID: 1303983553}
   m_Layer: 5
   m_Name: HairSlot5
   m_TagString: Untagged
@@ -30128,7 +30345,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1303983551}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1303983553}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1303983551
@@ -30168,6 +30396,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1303983548}
   m_CullTransparentMesh: 0
+--- !u!114 &1303983553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1303983548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6397604074585b84a97011a5256ddb22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assignedStyle: {fileID: 100148, guid: 32eae52bf14cb35489df3d9ec921d2b6, type: 3}
+  activeStyle: {fileID: 252827275}
+  modelTransform: {fileID: 1830724193}
 --- !u!1 &1311314145
 GameObject:
   m_ObjectHideFlags: 0
@@ -35989,6 +36232,7 @@ GameObject:
   - component: {fileID: 1511438988}
   - component: {fileID: 1511438987}
   - component: {fileID: 1511438986}
+  - component: {fileID: 1511438990}
   m_Layer: 5
   m_Name: BeardSlot1
   m_TagString: Untagged
@@ -36095,7 +36339,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1511438988}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1511438990}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1511438988
@@ -36135,6 +36390,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1511438984}
   m_CullTransparentMesh: 0
+--- !u!114 &1511438990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511438984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d8c59389ecc97048891085a5d6deb3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assignedStyle: {fileID: 100148, guid: 72aa2cf76bcc39844856212d595539df, type: 3}
+  activeStyle: {fileID: 3276843415530535251}
+  modelTransform: {fileID: 1830724193}
 --- !u!1 &1514400417
 GameObject:
   m_ObjectHideFlags: 0
@@ -37543,6 +37813,7 @@ GameObject:
   - component: {fileID: 1638942817}
   - component: {fileID: 1638942816}
   - component: {fileID: 1638942815}
+  - component: {fileID: 1638942818}
   m_Layer: 5
   m_Name: HairSlot6
   m_TagString: Untagged
@@ -37613,7 +37884,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1638942816}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1638942818}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1638942816
@@ -37653,6 +37935,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1638942813}
   m_CullTransparentMesh: 0
+--- !u!114 &1638942818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638942813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6397604074585b84a97011a5256ddb22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assignedStyle: {fileID: 100148, guid: 4613d6bcc33269f4eb4065880937611c, type: 3}
+  activeStyle: {fileID: 252827275}
+  modelTransform: {fileID: 1830724193}
 --- !u!1 &1643276698
 GameObject:
   m_ObjectHideFlags: 0
@@ -44447,6 +44744,7 @@ GameObject:
   - component: {fileID: 1962070666}
   - component: {fileID: 1962070665}
   - component: {fileID: 1962070664}
+  - component: {fileID: 1962070667}
   m_Layer: 5
   m_Name: BeardSlot5
   m_TagString: Untagged
@@ -44517,7 +44815,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1962070665}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1962070667}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1962070665
@@ -44557,6 +44866,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1962070662}
   m_CullTransparentMesh: 0
+--- !u!114 &1962070667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1962070662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d8c59389ecc97048891085a5d6deb3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assignedStyle: {fileID: 100148, guid: 5e051b614b176284f9b4deaad04c3590, type: 3}
+  activeStyle: {fileID: 3276843415530535251}
+  modelTransform: {fileID: 1830724193}
 --- !u!1 &1968773430
 GameObject:
   m_ObjectHideFlags: 0
@@ -47768,6 +48092,7 @@ GameObject:
   - component: {fileID: 2105428437}
   - component: {fileID: 2105428436}
   - component: {fileID: 2105428435}
+  - component: {fileID: 2105428438}
   m_Layer: 5
   m_Name: BeardSlot6
   m_TagString: Untagged
@@ -47838,7 +48163,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2105428436}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2105428438}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &2105428436
@@ -47878,6 +48214,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2105428433}
   m_CullTransparentMesh: 0
+--- !u!114 &2105428438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2105428433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d8c59389ecc97048891085a5d6deb3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assignedStyle: {fileID: 100148, guid: e4ffb41971b809c4188277b5b3ed4127, type: 3}
+  activeStyle: {fileID: 3276843415530535251}
+  modelTransform: {fileID: 1830724193}
 --- !u!1 &2105568053
 GameObject:
   m_ObjectHideFlags: 0
