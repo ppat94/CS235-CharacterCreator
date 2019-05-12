@@ -14,7 +14,8 @@ public class HairColorSlot : MonoBehaviour {
     }
 
     public void OnClick() {
-        Transform t = model.transform.GetChild(0).GetChild(0);
+        Transform t = model.transform.GetChild(0).GetChild(0).GetChild(0).GetChild(0);
         t.GetComponent<Renderer>().material.color = buttonColor;
+
     }
 }
