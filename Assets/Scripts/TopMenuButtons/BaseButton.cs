@@ -10,8 +10,8 @@ public abstract class BaseButton : MonoBehaviour {
 
     protected Vector3 targetPanelScale = new Vector3(0.3f, 0.6f, 0.5f);
     protected Vector3 startingPanelScale = new Vector3(0f, 0f, 0f);
-    protected Vector3 targetModelPos = new Vector3(4.15f, -0.38f, 0.28f);
-    protected Vector3 startingModelPos = new Vector3(0.78f, 0f, 1.27f);
+    protected Vector3 targetCamPos = new Vector3(3.55f, 1.8498f, 0.84f);
+    protected Vector3 startingCamPos = new Vector3(7.02f, 1.62f, 0.07f);
     protected Color panelColor;
     protected BaseButton prevButton;
     protected bool isPanelActive = false;
@@ -21,8 +21,7 @@ public abstract class BaseButton : MonoBehaviour {
     protected readonly float fadeSpeed = 1f;
 
 
-    protected Vector3 targetCamPos = new Vector3(3.35f, 1.85f, 0.95f);
-    protected Vector3 startingCamPos = new Vector3(7.02f, 1.62f, 0.07f);
+
     protected readonly float camMovementSpeed = 2.5f;
 
 
