@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: challenger_head
-  m_Shader: {fileID: 4800000, guid: cc77cd34d845f4a479ddec96dd10a3f9, type: 3}
+  m_Shader: {fileID: 4800000, guid: 5e48bf596e79d42069e0767dd24ee215, type: 3}
   m_ShaderKeywords: WRINKLE_MAPS _DETAIL_MULX2 _EMISSIONMAP _LIGHTMAPPING_DYNAMIC_LIGHTMAPS
     _LIGHTMAPPING_REALTIME _NORMALMAP _SPECGLOSSMAP _UVSEC_UV1
   m_LightmapFlags: 5
@@ -70,6 +70,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _AlphaTestRef: 0.5
+    - _Amount: 0
     - _BumpScale: 1
     - _CullMode: 2
     - _Cutoff: 0.5
