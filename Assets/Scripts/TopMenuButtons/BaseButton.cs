@@ -7,25 +7,16 @@ public abstract class BaseButton : MonoBehaviour {
     public GameObject button;
     public GameObject model;
     public RectTransform panelTransform;
-
-    protected Vector3 targetPanelScale = new Vector3(0.3f, 0.6f, 0.5f);
+    protected Vector3 targetPanelScale = new Vector3(0.25f, 0.45f, 0.3f);
     protected Vector3 startingPanelScale = new Vector3(0f, 0f, 0f);
     protected Vector3 targetCamPos = new Vector3(3.55f, 1.8498f, 0.84f);
     protected Vector3 startingCamPos = new Vector3(7.02f, 1.62f, 0.07f);
-    protected Color panelColor;
     protected BaseButton prevButton;
     protected bool isPanelActive = false;
     protected static bool modelIsZoomed = false;
     protected readonly float panelExpandSpeed = 2.5f;
     protected readonly float modelExpandSpeed = 2.5f;
-    protected readonly float fadeSpeed = 1f;
-
-
-
     protected readonly float camMovementSpeed = 2.5f;
-
-
-
 
     protected void Reset() {
         panelTransform.localScale = new Vector3(0f, 0f, 0f);
