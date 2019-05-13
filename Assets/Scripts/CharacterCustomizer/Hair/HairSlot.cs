@@ -1,17 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
-public abstract class BaseHairSlotColorChanger : MonoBehaviour {
-    public GameObject model;
-    public Image button;
-    protected Color buttonColor;
+public class HairSlot : BaseSlot {
+    public void OnClick() {
+        activeStyle = modelTransform.GetChild(0).GetChild(0).GetChild(0).gameObject;
+        ModifyActiveStyle("challenger_hair");
+        activeStyle.transform.SetAsFirstSibling();
 
-    public void Awake() {
-        buttonColor = button.color;
     }
-
-    public abstract void OnClick();
-
 }
