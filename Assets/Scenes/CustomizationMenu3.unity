@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44956416, g: 0.49963713, b: 0.5756705, a: 1}
+  m_IndirectSpecularColor: {r: 0.44956374, g: 0.49963665, b: 0.5756691, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1271,12 +1271,12 @@ GameObject:
   - component: {fileID: 49485819}
   - component: {fileID: 49485820}
   m_Layer: 5
-  m_Name: LegsMorphSlider (1)
+  m_Name: ShapeSizeSlider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &49485819
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1977,9 +1977,10 @@ GameObject:
   m_Component:
   - component: {fileID: 92493635}
   - component: {fileID: 92493636}
+  - component: {fileID: 92493637}
   m_Layer: 10
   m_Name: challenger_torso
-  m_TagString: Untagged
+  m_TagString: Torso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2068,6 +2069,20 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.2709492, y: 0.018679544, z: 0.00010879338}
     m_Extent: {x: 0.3597218, y: 0.25818586, z: 0.40864724}
   m_DirtyAABB: 0
+--- !u!114 &92493637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 92493634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fd69ec66e3b84930911b7282496c21b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rend: []
+  gameObjects: []
 --- !u!1 &95522595
 GameObject:
   m_ObjectHideFlags: 0
@@ -5126,7 +5141,7 @@ GameObject:
   - component: {fileID: 252827277}
   m_Layer: 0
   m_Name: challenger_hair
-  m_TagString: Untagged
+  m_TagString: Head
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6148,7 +6163,7 @@ GameObject:
   - component: {fileID: 284183638}
   m_Layer: 10
   m_Name: challenger_boots
-  m_TagString: Untagged
+  m_TagString: Legs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8463,7 +8478,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -10101,7 +10116,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &451996699
 Transform:
   m_ObjectHideFlags: 0
@@ -11282,7 +11297,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &514156105
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13138,7 +13153,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 600117392}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.7}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1693930330}
@@ -15814,7 +15829,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -16028,7 +16043,7 @@ GameObject:
   - component: {fileID: 712798513}
   m_Layer: 10
   m_Name: challenger_beard(old)
-  m_TagString: Untagged
+  m_TagString: Head
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16140,7 +16155,8 @@ SkinnedMeshRenderer:
   - {fileID: 1526273951}
   - {fileID: 2022337161}
   - {fileID: 666851696}
-  m_BlendShapeWeights: []
+  m_BlendShapeWeights:
+  - 0
   m_RootBone: {fileID: 666851696}
   m_AABB:
     m_Center: {x: -0.08518821, y: -0.012306601, z: 0.000085793436}
@@ -16629,7 +16645,7 @@ GameObject:
   - component: {fileID: 736735819}
   m_Layer: 10
   m_Name: challenger_teeth
-  m_TagString: Untagged
+  m_TagString: Head
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17717,7 +17733,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &792022820
 RectTransform:
   m_ObjectHideFlags: 0
@@ -17746,7 +17762,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 211.5999, y: 44.8}
+  m_AnchoredPosition: {x: 211.5999, y: 17.6}
   m_SizeDelta: {x: 517.94, y: 289.44}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &792022821
@@ -18596,7 +18612,7 @@ GameObject:
   - component: {fileID: 861877928}
   m_Layer: 10
   m_Name: challenger_helm
-  m_TagString: Untagged
+  m_TagString: Head
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20016,7 +20032,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -22514,7 +22530,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -22989,6 +23005,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d951ac1636537e74e85b1b58f52b0e92, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d951ac1636537e74e85b1b58f52b0e92, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.267
@@ -23202,7 +23222,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1052768978
 RectTransform:
   m_ObjectHideFlags: 0
@@ -23441,9 +23461,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1056103027}
   - component: {fileID: 1056103028}
+  - component: {fileID: 1056103029}
   m_Layer: 10
   m_Name: challenger_fingers
-  m_TagString: Untagged
+  m_TagString: Torso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23555,6 +23576,20 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.1794439, y: -0.24374321, z: -0.40305093}
     m_Extent: {x: 0.4884056, y: 0.29711363, z: 0.44600877}
   m_DirtyAABB: 0
+--- !u!114 &1056103029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1056103026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fd69ec66e3b84930911b7282496c21b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rend: []
+  gameObjects: []
 --- !u!1 &1057588896
 GameObject:
   m_ObjectHideFlags: 0
@@ -30902,9 +30937,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1346799579}
   - component: {fileID: 1346799580}
+  - component: {fileID: 1346799581}
   m_Layer: 10
   m_Name: challenger_hood
-  m_TagString: Untagged
+  m_TagString: Torso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30980,6 +31016,20 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.251024, y: 0.021957926, z: -0.009259}
     m_Extent: {x: 0.14437073, y: 0.17267185, z: 0.13649513}
   m_DirtyAABB: 0
+--- !u!114 &1346799581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346799578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fd69ec66e3b84930911b7282496c21b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rend: []
+  gameObjects: []
 --- !u!1 &1348906463
 GameObject:
   m_ObjectHideFlags: 0
@@ -33360,7 +33410,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -34009,7 +34059,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -34404,9 +34454,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1441528966}
   - component: {fileID: 1441528967}
+  - component: {fileID: 1441528968}
   m_Layer: 10
   m_Name: challenger_hands
-  m_TagString: Untagged
+  m_TagString: Torso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34498,6 +34549,20 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.21352899, y: 0.41833517, z: -0.06554682}
     m_Extent: {x: 0.45891136, y: 0.5548259, z: 0.13757038}
   m_DirtyAABB: 0
+--- !u!114 &1441528968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1441528965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fd69ec66e3b84930911b7282496c21b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rend: []
+  gameObjects: []
 --- !u!1 &1443810337
 GameObject:
   m_ObjectHideFlags: 0
@@ -36539,7 +36604,7 @@ GameObject:
   - component: {fileID: 1539947652}
   m_Layer: 10
   m_Name: challenger_eyes_refl 1
-  m_TagString: Untagged
+  m_TagString: Head
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37998,12 +38063,23 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1019041507}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 1
+  m_MaxValue: 0.03
   m_WholeNumbers: 0
   m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1742923133}
+        m_MethodName: set_extrusionAmount
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Slider+SliderEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!1 &1650853030
@@ -39374,9 +39450,10 @@ GameObject:
   - component: {fileID: 1742923132}
   - component: {fileID: 1742923131}
   - component: {fileID: 1742923130}
+  - component: {fileID: 1742923133}
   m_Layer: 9
   m_Name: challenger_head
-  m_TagString: Untagged
+  m_TagString: Head
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39451,7 +39528,7 @@ SkinnedMeshRenderer:
   - 0
   - 0
   - 0
-  - 63
+  - 0
   m_RootBone: {fileID: 207239270}
   m_AABB:
     m_Center: {x: -0.0000058934093, y: 0.07384606, z: 0.05497027}
@@ -39471,6 +39548,20 @@ Transform:
   m_Father: {fileID: 1170022286}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1742923133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1742923129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47a94ec2b786e44fba3721172af82e04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rend: []
+  gameObjects: []
 --- !u!1 &1749405404
 GameObject:
   m_ObjectHideFlags: 0
@@ -39685,6 +39776,7 @@ Transform:
   - {fileID: 1896324072}
   - {fileID: 712798512}
   - {fileID: 1934028268}
+  - {fileID: 2000671426}
   m_Father: {fileID: 1390659524}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -41127,10 +41219,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 0.6272417
-  m_Height: 2.0409732
+  m_Radius: 0.29126036
+  m_Height: 1.9099998
   m_Direction: 1
-  m_Center: {x: -0.03942406, y: 0.89502585, z: 4.1221826e-10}
+  m_Center: {x: -0.048163686, y: 0.89502215, z: -0.19999939}
 --- !u!1 &1832702430
 GameObject:
   m_ObjectHideFlags: 0
@@ -41895,12 +41987,23 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1402954569}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 1
+  m_MaxValue: 0.03
   m_WholeNumbers: 0
   m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2076396116}
+        m_MethodName: set_extrusionAmount
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Slider+SliderEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!1 &1871927661
@@ -42498,9 +42601,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1896324072}
   - component: {fileID: 1896324073}
+  - component: {fileID: 1896324074}
   m_Layer: 10
   m_Name: challenger_pants
-  m_TagString: Untagged
+  m_TagString: Legs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42574,6 +42678,20 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.30476975, y: 0.040160216, z: 0.0072903335}
     m_Extent: {x: 0.37922245, y: 0.15174389, z: 0.28551146}
   m_DirtyAABB: 0
+--- !u!114 &1896324074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896324071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f987916c3974457f9647d5f89bc365d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rend: []
+  gameObjects: []
 --- !u!1 &1897663086
 GameObject:
   m_ObjectHideFlags: 0
@@ -42763,12 +42881,23 @@ MonoBehaviour:
   m_HandleRect: {fileID: 384763335}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 1
+  m_MaxValue: 0.03
   m_WholeNumbers: 0
   m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1896324074}
+        m_MethodName: set_extrusionAmount
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Slider+SliderEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!1 &1908522286
@@ -43547,7 +43676,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1932559567
 Transform:
   m_ObjectHideFlags: 0
@@ -43659,9 +43788,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1934028268}
   - component: {fileID: 1934028269}
+  - component: {fileID: 1934028270}
   m_Layer: 10
   m_Name: challenger_hair(old)
-  m_TagString: Untagged
+  m_TagString: Head
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43729,12 +43859,27 @@ SkinnedMeshRenderer:
   - {fileID: 822196243}
   - {fileID: 666851696}
   - {fileID: 2022337161}
-  m_BlendShapeWeights: []
+  m_BlendShapeWeights:
+  - 0
   m_RootBone: {fileID: 207239270}
   m_AABB:
     m_Center: {x: 0.0001936853, y: 0.1601914, z: 0.057433646}
     m_Extent: {x: 0.08560422, y: 0.10697194, z: 0.09847663}
   m_DirtyAABB: 0
+--- !u!114 &1934028270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1934028267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47a94ec2b786e44fba3721172af82e04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rend: []
+  gameObjects: []
 --- !u!1 &1937916446
 GameObject:
   m_ObjectHideFlags: 0
@@ -45607,6 +45752,92 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1996599273}
   m_CullTransparentMesh: 0
+--- !u!1 &2000671425
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2000671426}
+  - component: {fileID: 2000671427}
+  m_Layer: 10
+  m_Name: challenger_hair2
+  m_TagString: Head
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &2000671426
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2000671425}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0.7071068, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2027082066}
+  m_Father: {fileID: 1760992020}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: -90, y: 180, z: 0}
+--- !u!137 &2000671427
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2000671425}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: 2c93e4bb5eec06b4aa9843e65cd90cfe, type: 3}
+  m_Bones:
+  - {fileID: 207239270}
+  - {fileID: 366254894}
+  - {fileID: 822196243}
+  - {fileID: 666851696}
+  - {fileID: 2022337161}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 207239270}
+  m_AABB:
+    m_Center: {x: 0.0001936853, y: 0.1601914, z: 0.057433646}
+    m_Extent: {x: 0.08560422, y: 0.10697194, z: 0.09847663}
+  m_DirtyAABB: 0
 --- !u!1 &2001355351
 GameObject:
   m_ObjectHideFlags: 0
@@ -46514,7 +46745,7 @@ GameObject:
   - component: {fileID: 2025818227}
   m_Layer: 10
   m_Name: challenger_tongue
-  m_TagString: Untagged
+  m_TagString: Head
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46729,8 +46960,123 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1832b592779853a429a1a1e80be1598f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  model: {fileID: 1830724189}
+  model: {fileID: 1934028267}
   button: {fileID: 2025911117}
+--- !u!1 &2027082065
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2027082066}
+  - component: {fileID: 2027082067}
+  - component: {fileID: 2027082070}
+  - component: {fileID: 2027082069}
+  - component: {fileID: 2027082068}
+  m_Layer: 10
+  m_Name: challenger_hair_renderer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2027082066
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027082065}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2000671426}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2027082067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027082065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd2968890be6eda4080e206094d11332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sourceRenderer: {fileID: 2000671427}
+  mode: 1
+  useOpaquePass: 1
+  opaqueAlphaRef: 0.8
+  frontWriteDepth: 0
+  frontBackAlphaRef: 0.01
+  debugMode: 0
+  headSpheres: []
+  headShell: {fileID: 0}
+  sortDistanceScale: 1
+--- !u!64 &2027082068
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027082065}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300002, guid: 35c8719cd49587643aab6138c8191f72, type: 3}
+--- !u!23 &2027082069
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027082065}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 8f821422c55d9c04291c03f83d9fadc4, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &2027082070
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027082065}
+  m_Mesh: {fileID: 4300002, guid: 35c8719cd49587643aab6138c8191f72, type: 3}
 --- !u!1 &2035831011
 GameObject:
   m_ObjectHideFlags: 0
@@ -46914,7 +47260,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2058481389
 RectTransform:
   m_ObjectHideFlags: 0
@@ -47336,9 +47682,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2076396114}
   - component: {fileID: 2076396115}
+  - component: {fileID: 2076396116}
   m_Layer: 10
   m_Name: challenger_sholders
-  m_TagString: Untagged
+  m_TagString: Torso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47408,6 +47755,20 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.07388663, y: 0.20554745, z: -0.00081917644}
     m_Extent: {x: 0.2521011, y: 0.24731147, z: 0.12716201}
   m_DirtyAABB: 0
+--- !u!114 &2076396116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2076396113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fd69ec66e3b84930911b7282496c21b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rend: []
+  gameObjects: []
 --- !u!1 &2090032177
 GameObject:
   m_ObjectHideFlags: 0
@@ -52901,7 +53262,7 @@ GameObject:
   - component: {fileID: 3276843415541555463}
   m_Layer: 0
   m_Name: challenger_beard
-  m_TagString: Untagged
+  m_TagString: Head
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
