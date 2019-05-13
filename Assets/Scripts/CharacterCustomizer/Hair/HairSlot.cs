@@ -7,5 +7,6 @@ public class HairSlot : BaseSlot {
         activeStyle = modelTransform.GetChild(0).GetChild(0).GetChild(0).gameObject;
         ModifyActiveStyle("challenger_hair");
         activeStyle.transform.SetAsFirstSibling();
+
     }
 }

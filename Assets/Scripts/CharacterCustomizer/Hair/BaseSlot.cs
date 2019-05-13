@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class BaseSlot: MonoBehaviour {
-    public GameObject assignedStyle;
+    public GameObject assignedStyle = null;
     public GameObject activeStyle;
     public Transform modelTransform;
 
@@ -23,6 +23,7 @@ public class BaseSlot: MonoBehaviour {
         activeStyle = Instantiate(assignedStyle);
         activeStyle.transform.SetParent(FindParent());
         activeStyle.name = styleName;
+        activeStyle.SetActive(true);
     }
 
 
