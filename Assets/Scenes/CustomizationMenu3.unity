@@ -4750,6 +4750,7 @@ GameObject:
   - component: {fileID: 215943244}
   - component: {fileID: 215943243}
   - component: {fileID: 215943242}
+  - component: {fileID: 215943246}
   m_Layer: 5
   m_Name: TopSlot1
   m_TagString: Untagged
@@ -4856,7 +4857,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 215943244}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 215943246}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &215943244
@@ -4896,6 +4908,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 215943240}
   m_CullTransparentMesh: 0
+--- !u!114 &215943246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 215943240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c93a7ab7a442e341b339e8b2c8486de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  curClothingItem: {fileID: 92493634}
+  assignedTexture: {fileID: 2800000, guid: b4789d122f4fd4690a15a9d041b5a9f2, type: 3}
 --- !u!1 &219931444
 GameObject:
   m_ObjectHideFlags: 0
@@ -9201,6 +9227,7 @@ GameObject:
   - component: {fileID: 418454176}
   - component: {fileID: 418454175}
   - component: {fileID: 418454174}
+  - component: {fileID: 418454177}
   m_Layer: 5
   m_Name: BottomSlot3
   m_TagString: Untagged
@@ -9271,7 +9298,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 418454175}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 418454177}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &418454175
@@ -9311,6 +9349,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 418454172}
   m_CullTransparentMesh: 0
+--- !u!114 &418454177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 418454172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c93a7ab7a442e341b339e8b2c8486de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  curClothingItem: {fileID: 1896324071}
+  assignedTexture: {fileID: 2800000, guid: 6192c5337c09d4881aa5d1a1494b70af, type: 3}
 --- !u!1 &424388369
 GameObject:
   m_ObjectHideFlags: 0
@@ -18555,6 +18607,7 @@ GameObject:
   - component: {fileID: 851597481}
   - component: {fileID: 851597480}
   - component: {fileID: 851597479}
+  - component: {fileID: 851597482}
   m_Layer: 5
   m_Name: BottomSlot2
   m_TagString: Untagged
@@ -18625,7 +18678,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 851597480}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 851597482}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &851597480
@@ -18665,6 +18729,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 851597477}
   m_CullTransparentMesh: 0
+--- !u!114 &851597482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 851597477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c93a7ab7a442e341b339e8b2c8486de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  curClothingItem: {fileID: 1896324071}
+  assignedTexture: {fileID: 2800000, guid: b172e7b90e6774146937453092e68629, type: 3}
 --- !u!1 &861877926
 GameObject:
   m_ObjectHideFlags: 0
@@ -20888,6 +20966,7 @@ GameObject:
   - component: {fileID: 939266148}
   - component: {fileID: 939266147}
   - component: {fileID: 939266146}
+  - component: {fileID: 939266149}
   m_Layer: 5
   m_Name: TopSlot3
   m_TagString: Untagged
@@ -20958,7 +21037,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 939266147}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 939266149}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &939266147
@@ -20998,6 +21088,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 939266144}
   m_CullTransparentMesh: 0
+--- !u!114 &939266149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 939266144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c93a7ab7a442e341b339e8b2c8486de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  curClothingItem: {fileID: 92493634}
+  assignedTexture: {fileID: 2800000, guid: 798e6e22f63944a08b08ea8d8effc995, type: 3}
 --- !u!1 &943141174
 GameObject:
   m_ObjectHideFlags: 0
@@ -22115,6 +22219,7 @@ GameObject:
   - component: {fileID: 996404194}
   - component: {fileID: 996404193}
   - component: {fileID: 996404192}
+  - component: {fileID: 996404196}
   m_Layer: 5
   m_Name: BottomSlot1
   m_TagString: Untagged
@@ -22221,7 +22326,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 996404194}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 996404196}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &996404194
@@ -22261,6 +22377,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 996404190}
   m_CullTransparentMesh: 0
+--- !u!114 &996404196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 996404190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c93a7ab7a442e341b339e8b2c8486de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  curClothingItem: {fileID: 1896324071}
+  assignedTexture: {fileID: 2800000, guid: 90c8639e4d2034ec4acf8a8df37f37cb, type: 3}
 --- !u!1 &997199518
 GameObject:
   m_ObjectHideFlags: 0
@@ -25081,6 +25211,7 @@ GameObject:
   - component: {fileID: 1117903362}
   - component: {fileID: 1117903361}
   - component: {fileID: 1117903360}
+  - component: {fileID: 1117903363}
   m_Layer: 5
   m_Name: TopSlot2
   m_TagString: Untagged
@@ -25151,7 +25282,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1117903361}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1117903363}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1117903361
@@ -25191,6 +25333,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1117903358}
   m_CullTransparentMesh: 0
+--- !u!114 &1117903363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117903358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c93a7ab7a442e341b339e8b2c8486de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  curClothingItem: {fileID: 92493634}
+  assignedTexture: {fileID: 2800000, guid: 3455b0f7173bd4aa2ae6d80fab8ad69b, type: 3}
 --- !u!1 &1118275439
 GameObject:
   m_ObjectHideFlags: 0
