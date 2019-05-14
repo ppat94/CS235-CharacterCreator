@@ -4,6 +4,11 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class BaseColorSlot : MonoBehaviour {
+    public Image button;
+
+
+
+
     public GameObject model;
     public Image button;
     protected Color buttonColor;
@@ -11,7 +16,7 @@ public class BaseColorSlot : MonoBehaviour {
 
     // match color with color of selected panel
     public void Awake() {
-        buttonColor = button.transform.GetChild(0).GetComponent<Image>().color;
-        trans = model.transform.GetChild(0).GetChild(0);
+        //buttonColor = button.transform.GetChild(0).GetComponent<Image>().color;
+       // trans = model.transform.GetChild(0).GetChild(0);
     }
 }

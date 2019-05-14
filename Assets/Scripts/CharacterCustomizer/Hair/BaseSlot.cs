@@ -2,29 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BaseSlot: MonoBehaviour {
+public class BaseSlot : MonoBehaviour {
+    public GameObject parent;
     public GameObject assignedStyle = null;
     public GameObject activeStyle;
-    public Transform modelTransform;
+    protected Vector3 localPos;
+    protected Vector3 localAngles;
+    protected Vector3 localScale;
 
-    protected void ResetTransform() {
-        assignedStyle.transform.position = activeStyle.transform.position;
-        assignedStyle.transform.eulerAngles = activeStyle.transform.eulerAngles;
-        assignedStyle.transform.localScale = activeStyle.transform.localScale;
+    protected void ResetTransformation() {
+        activeStyle.transform.localPosition = localPos;
+        activeStyle.transform.localEulerAngles = localAngles;
+        activeStyle.transform.localScale = localScale;
     }
-
-    protected Transform FindParent() {
-        return modelTransform.GetChild(0).GetChild(0);
-    }
-
-    protected void ModifyActiveStyle(string styleName) {
-        ResetTransform();
-        Destroy(activeStyle);
-        activeStyle = Instantiate(assignedStyle);
-        activeStyle.transform.SetParent(FindParent());
-        activeStyle.name = styleName;
-        activeStyle.SetActive(true);
-    }
-
-
 }
