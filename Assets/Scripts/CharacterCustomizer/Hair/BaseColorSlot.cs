@@ -4,11 +4,6 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class BaseColorSlot : MonoBehaviour {
-    public Image button;
-
-
-
-
     public GameObject model;
     public Image button;
     protected Color buttonColor;

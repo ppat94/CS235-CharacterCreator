@@ -5,9 +5,9 @@ using UnityEngine;
 public class HairSlot : BaseSlot {
 
     public void Awake() {
-        localPos = new Vector3(-0.05f, -1.64f, 0f);
-        localAngles = new Vector3(0f, 89.1f, 0f);
-        localScale = new Vector3(0.9f, 0.9f, 0.9f);
+        localPos = new Vector3(-0.04f, -1.74f, 0f);
+        localAngles = new Vector3(0f, 87f, 0f);
+        localScale = new Vector3(0.95f, 0.95f, 0.95f);
     }
 
     public void OnClick() {
