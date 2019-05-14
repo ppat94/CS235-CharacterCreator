@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class ButtonController : MonoBehaviour {
     public static ButtonController instance;
-    private static List<BaseButton> buttons = new List<BaseButton>();
-    private static BaseButton prevButton = null;
+    private static List<BaseButton> buttons = new List<BaseButton>();   // might not be needed
 
     public void Awake() {
         instance = this;
@@ -15,15 +14,16 @@ public class ButtonController : MonoBehaviour {
         buttons.Add(b);
     }
 
-    public static void Deactivate(BaseButton button) {
-        prevButton = button;
+    public static void DeactivateOtherPanels(BaseButton button) {
         foreach (BaseButton b in buttons) {
-            instance.StartCoroutine(b.ShrinkPanel());
+            if (b == button) continue;
+            else if (b.WasActive()) {  // only shrink the panels that were active
+                b.DeactivatePanel();
+                instance.StartCoroutine(b.ShrinkPanel());
+                return;
+            }
         }
     }
 
-    public static BaseButton GetPrevButton() {
-        return prevButton;
-    }
 
 }

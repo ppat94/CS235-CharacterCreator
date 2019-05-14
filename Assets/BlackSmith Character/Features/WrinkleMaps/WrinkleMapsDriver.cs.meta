@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 54555aa52ad672c4c966e5e3c7eb54b2
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - wrinkleShader: {fileID: 4800000, guid: 2574f1a511521494d88070c844d38d3d, type: 3}
+  - occlusionShader: {fileID: 4800000, guid: 31178810f30f00941820f64a70a2e5ca, type: 3}
+  - target: {instanceID: 0}
+  - wrinkleMask: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 

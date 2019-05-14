@@ -1,0 +1,550 @@
+fileFormatVersion: 2
+guid: db619e79ab698a5439b98059b0181bd5
+ModelImporter:
+  serializedVersion: 25
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: challenger_beard
+  - first:
+      1: 100002
+    second: challenger_boots
+  - first:
+      1: 100004
+    second: challenger_dress
+  - first:
+      1: 100006
+    second: challenger_eyes_refl
+  - first:
+      1: 100008
+    second: challenger_eyes_refl 1
+  - first:
+      1: 100010
+    second: challenger_eyes_refl2
+  - first:
+      1: 100012
+    second: challenger_fingers
+  - first:
+      1: 100014
+    second: challenger_hair
+  - first:
+      1: 100016
+    second: challenger_hands
+  - first:
+      1: 100018
+    second: challenger_head
+  - first:
+      1: 100020
+    second: challenger_helm
+  - first:
+      1: 100022
+    second: challenger_hood
+  - first:
+      1: 100024
+    second: challenger_knife
+  - first:
+      1: 100026
+    second: //RootNode
+  - first:
+      1: 100028
+    second: challenger_pants
+  - first:
+      1: 100030
+    second: challenger_sholders
+  - first:
+      1: 100032
+    second: challenger_sword_holder
+  - first:
+      1: 100034
+    second: challenger_sword_holder2
+  - first:
+      1: 100036
+    second: challenger_teeths
+  - first:
+      1: 100038
+    second: challenger_torso
+  - first:
+      4: 400000
+    second: challenger_beard
+  - first:
+      4: 400002
+    second: challenger_boots
+  - first:
+      4: 400004
+    second: challenger_dress
+  - first:
+      4: 400006
+    second: challenger_eyes_refl
+  - first:
+      4: 400008
+    second: challenger_eyes_refl 1
+  - first:
+      4: 400010
+    second: challenger_eyes_refl2
+  - first:
+      4: 400012
+    second: challenger_fingers
+  - first:
+      4: 400014
+    second: challenger_hair
+  - first:
+      4: 400016
+    second: challenger_hands
+  - first:
+      4: 400018
+    second: challenger_head
+  - first:
+      4: 400020
+    second: challenger_helm
+  - first:
+      4: 400022
+    second: challenger_hood
+  - first:
+      4: 400024
+    second: challenger_knife
+  - first:
+      4: 400026
+    second: //RootNode
+  - first:
+      4: 400028
+    second: challenger_pants
+  - first:
+      4: 400030
+    second: challenger_sholders
+  - first:
+      4: 400032
+    second: challenger_sword_holder
+  - first:
+      4: 400034
+    second: challenger_sword_holder2
+  - first:
+      4: 400036
+    second: challenger_teeths
+  - first:
+      4: 400038
+    second: challenger_torso
+  - first:
+      23: 2300000
+    second: challenger_beard
+  - first:
+      23: 2300002
+    second: challenger_boots
+  - first:
+      23: 2300004
+    second: challenger_dress
+  - first:
+      23: 2300006
+    second: challenger_eyes_refl
+  - first:
+      23: 2300008
+    second: challenger_eyes_refl 1
+  - first:
+      23: 2300010
+    second: challenger_eyes_refl2
+  - first:
+      23: 2300012
+    second: challenger_fingers
+  - first:
+      23: 2300014
+    second: challenger_hair
+  - first:
+      23: 2300016
+    second: challenger_hands
+  - first:
+      23: 2300018
+    second: challenger_head
+  - first:
+      23: 2300020
+    second: challenger_helm
+  - first:
+      23: 2300022
+    second: challenger_hood
+  - first:
+      23: 2300024
+    second: challenger_knife
+  - first:
+      23: 2300026
+    second: challenger_pants
+  - first:
+      23: 2300028
+    second: challenger_sholders
+  - first:
+      23: 2300030
+    second: challenger_sword_holder
+  - first:
+      23: 2300032
+    second: challenger_sword_holder2
+  - first:
+      23: 2300034
+    second: challenger_teeths
+  - first:
+      23: 2300036
+    second: challenger_torso
+  - first:
+      33: 3300000
+    second: challenger_beard
+  - first:
+      33: 3300002
+    second: challenger_boots
+  - first:
+      33: 3300004
+    second: challenger_dress
+  - first:
+      33: 3300006
+    second: challenger_eyes_refl
+  - first:
+      33: 3300008
+    second: challenger_eyes_refl 1
+  - first:
+      33: 3300010
+    second: challenger_eyes_refl2
+  - first:
+      33: 3300012
+    second: challenger_fingers
+  - first:
+      33: 3300014
+    second: challenger_hair
+  - first:
+      33: 3300016
+    second: challenger_hands
+  - first:
+      33: 3300018
+    second: challenger_head
+  - first:
+      33: 3300020
+    second: challenger_helm
+  - first:
+      33: 3300022
+    second: challenger_hood
+  - first:
+      33: 3300024
+    second: challenger_knife
+  - first:
+      33: 3300026
+    second: challenger_pants
+  - first:
+      33: 3300028
+    second: challenger_sholders
+  - first:
+      33: 3300030
+    second: challenger_sword_holder
+  - first:
+      33: 3300032
+    second: challenger_sword_holder2
+  - first:
+      33: 3300034
+    second: challenger_teeths
+  - first:
+      33: 3300036
+    second: challenger_torso
+  - first:
+      43: 4300000
+    second: challenger_boots
+  - first:
+      43: 4300002
+    second: challenger_torso
+  - first:
+      43: 4300004
+    second: challenger_helm
+  - first:
+      43: 4300006
+    second: challenger_hood
+  - first:
+      43: 4300008
+    second: challenger_head
+  - first:
+      43: 4300010
+    second: challenger_pants
+  - first:
+      43: 4300012
+    second: challenger_dress
+  - first:
+      43: 4300014
+    second: challenger_sholders
+  - first:
+      43: 4300016
+    second: challenger_hands
+  - first:
+      43: 4300018
+    second: challenger_sword_holder
+  - first:
+      43: 4300020
+    second: challenger_knife
+  - first:
+      43: 4300022
+    second: challenger_sword_holder2
+  - first:
+      43: 4300024
+    second: challenger_fingers
+  - first:
+      43: 4300026
+    second: challenger_eyes_refl
+  - first:
+      43: 4300028
+    second: challenger_eyes_refl2
+  - first:
+      43: 4300030
+    second: challenger_hair
+  - first:
+      43: 4300032
+    second: challenger_beard
+  - first:
+      43: 4300034
+    second: challenger_teeths
+  - first:
+      43: 4300036
+    second: challenger_eyes_refl
+  - first:
+      74: 7400000
+    second: Take 001
+  - first:
+      95: 9500000
+    second: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 23 - Default
+    second: {fileID: 2100000, guid: 5f564ed8ea7273644b0fd6a446795fd7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: challenger_beard
+    second: {fileID: 2100000, guid: 481ca99c01a63964fa32744a95d04c01, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: challenger_body
+    second: {fileID: 2100000, guid: 20647ca4f616c7442ac20e3e12433d75, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: challenger_body2
+    second: {fileID: 2100000, guid: dbeb8fe07d23e504284c98804741c70c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: challenger_hair
+    second: {fileID: 2100000, guid: 7ce720593064be04eae1b9f893fe69a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: challenger_head
+    second: {fileID: 2100000, guid: da7e650d22c8ec842b6c31759ea55bb9, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      internalID: 7400000
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: challenger_lowpoly_01(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: challenger_hair
+      parentName: challenger_lowpoly_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: challenger_beard
+      parentName: challenger_lowpoly_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: challenger_boots
+      parentName: challenger_lowpoly_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: challenger_torso
+      parentName: challenger_lowpoly_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: challenger_helm
+      parentName: challenger_lowpoly_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: challenger_hood
+      parentName: challenger_lowpoly_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: challenger_head
+      parentName: challenger_lowpoly_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: challenger_pants
+      parentName: challenger_lowpoly_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: challenger_dress
+      parentName: challenger_lowpoly_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: challenger_sholders
+      parentName: challenger_lowpoly_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: challenger_hands
+      parentName: challenger_lowpoly_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: challenger_sword_holder
+      parentName: challenger_lowpoly_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: challenger_knife
+      parentName: challenger_lowpoly_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: challenger_sword_holder2
+      parentName: challenger_lowpoly_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: challenger_fingers
+      parentName: challenger_lowpoly_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: challenger_eyes_refl 1
+      parentName: challenger_lowpoly_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: challenger_eyes_refl2
+      parentName: challenger_lowpoly_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: challenger_teeths
+      parentName: challenger_lowpoly_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: challenger_eyes_refl
+      parentName: challenger_lowpoly_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -7,68 +7,67 @@ public abstract class BaseButton : MonoBehaviour {
     public GameObject button;
     public GameObject model;
     public RectTransform panelTransform;
-
-    protected Vector3 targetPanelScale = new Vector3(0.3f, 0.6f, 0.5f);
+    protected Vector3 targetPanelScale = new Vector3(0.25f, 0.45f, 0.3f);
     protected Vector3 startingPanelScale = new Vector3(0f, 0f, 0f);
-    protected Vector3 targetModelPos = new Vector3(450.4f, 167f, -833.7f);
-    protected Vector3 startingModelPos = new Vector3(461, 179, -771);
-    protected Color panelColor;
+    protected Vector3 targetCamPos = new Vector3(3.55f, 1.8498f, 0.84f);
+    protected Vector3 startingCamPos = new Vector3(7.02f, 1.62f, 0.07f);
+    protected BaseButton prevButton;
+    protected bool isPanelActive = false;
+    protected static bool modelIsZoomed = false;
     protected readonly float panelExpandSpeed = 2.5f;
     protected readonly float modelExpandSpeed = 2.5f;
-    protected readonly float fadeSpeed = 1f;
+    protected readonly float camMovementSpeed = 2.5f;
 
     protected void Reset() {
         panelTransform.localScale = new Vector3(0f, 0f, 0f);
-        startingModelPos = model.transform.localPosition;
-
-    }
-
-    protected IEnumerator ExpandModel() {
-        float lerpPercent = 0;
-
-        while (lerpPercent <= 1) {
-            lerpPercent += modelExpandSpeed * Time.deltaTime;
-            model.transform.localPosition = Hermite(startingModelPos, targetModelPos, lerpPercent);
-
-            yield return null;
-        }
-
-        yield return null;
-    }
-
-    public IEnumerator ShrinkModel() {
-        float lerpPercent = 0;
-
-        while(lerpPercent <= 1) {
-            lerpPercent += modelExpandSpeed * Time.deltaTime;
-            model.transform.localPosition = Hermite(targetModelPos, startingModelPos, lerpPercent);
-
-            yield return null;
-        }
-        yield return null;
     }
 
     public IEnumerator ShrinkPanel() {
         float lerpPercent = 0;
-
-        while(lerpPercent <= 1) {
+        while (lerpPercent <= 1) {
             lerpPercent += panelExpandSpeed * Time.deltaTime;
             panelTransform.localScale = Hermite(targetPanelScale, startingPanelScale, lerpPercent);
 
             yield return null;
         }
+        panelTransform.gameObject.SetActive(false);
+        yield return null;
+    }
+
+    public IEnumerator ZoomInModel() {
+        float lerpPercent = 0;
+        modelIsZoomed = true;
+        while (lerpPercent <= 1) {
+            lerpPercent += camMovementSpeed * Time.deltaTime;
+            Camera.main.transform.position = Hermite(startingCamPos, targetCamPos, lerpPercent);
+            yield return null;
+        }
+
+        yield return null;
+    }
+
+    public IEnumerator ZoomOutModel() {
+        float lerpPercent = 0;
+        modelIsZoomed = false;
+        while (lerpPercent <= 1) {
+            lerpPercent += camMovementSpeed * Time.deltaTime;
+            Camera.main.transform.position = Hermite(targetCamPos, startingCamPos, lerpPercent);
+            yield return null;
+        }
+
         yield return null;
     }
 
     protected IEnumerator ExpandPanel() {
-        float lerpPercent = 0;
+        panelTransform.gameObject.SetActive(true);
 
+        float lerpPercent = 0;
         while (lerpPercent <= 1) {
             lerpPercent += panelExpandSpeed * Time.deltaTime;
             panelTransform.localScale = Hermite(startingPanelScale, targetPanelScale, lerpPercent);
-
             yield return null;
         }
+
         yield return null;
     }
 
@@ -81,6 +80,31 @@ public abstract class BaseButton : MonoBehaviour {
         return new Vector3(Hermite(start.x, end.x, value), Hermite(start.y, end.y, value), Hermite(start.z, end.z, value));
     }
 
-    public abstract void OnClick();
+
+    public void DeactivatePanel() {
+        isPanelActive = false;
+    }
+
+    public bool WasActive() {
+        return isPanelActive;
+    }
+
+    protected void InitButton() {
+        if (isPanelActive) {
+            isPanelActive = false;
+            StartCoroutine(ShrinkPanel());
+            if (this is HairButton || this is FaceButton)
+                StartCoroutine(ZoomOutModel());
+            return;
+        }
+
+        isPanelActive = true;
+        ButtonController.DeactivateOtherPanels(this);
+        StartCoroutine(ExpandPanel());
+
+    }
 
 }
+
+
+
