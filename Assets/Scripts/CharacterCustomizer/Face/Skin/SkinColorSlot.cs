@@ -15,7 +15,7 @@ public class SkinColorSlot : BaseColorSlot
         // select the hair renderer child game object
         //Transform t = trans.GetChild(4);
         //t.GetComponent<Renderer>().material.color = buttonColor;
-        model.transform.Find("challenger_head").GetComponent<Renderer>().material.color = buttonColor;
-        model.transform.Find("challenger_fingers").GetComponent<Renderer>().material.color = buttonColor;
+        //model.transform.Find("challenger_head").GetComponent<Renderer>().material.color = buttonColor;
+        //model.transform.Find("challenger_fingers").GetComponent<Renderer>().material.color = buttonColor;
     }
 }
