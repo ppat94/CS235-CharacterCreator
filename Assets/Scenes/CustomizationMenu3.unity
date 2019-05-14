@@ -1316,8 +1316,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3d703eec59da481fb28e81864e6e797, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parent: {fileID: 0}
-  button: {fileID: 28268937}
+  parent: {fileID: 1972404410}
+  assignedColor: {fileID: 2800000, guid: 320bd87312484df4dbce326662c0e9f2, type: 3}
 --- !u!1 &33092632
 GameObject:
   m_ObjectHideFlags: 0
@@ -4368,7 +4368,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9960785, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -4918,6 +4918,7 @@ GameObject:
   - component: {fileID: 211782149}
   - component: {fileID: 211782148}
   - component: {fileID: 211782147}
+  - component: {fileID: 211782150}
   m_Layer: 5
   m_Name: SkinColorSlot3
   m_TagString: Untagged
@@ -4988,7 +4989,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 211782148}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 211782150}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &211782148
@@ -5028,6 +5040,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 211782145}
   m_CullTransparentMesh: 0
+--- !u!114 &211782150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211782145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3d703eec59da481fb28e81864e6e797, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parent: {fileID: 1972404410}
+  assignedColor: {fileID: 2800000, guid: 90fbbd01f8c954b4f95cd0e74d618265, type: 3}
 --- !u!1 &215943240
 GameObject:
   m_ObjectHideFlags: 0
@@ -5318,6 +5344,7 @@ GameObject:
   - component: {fileID: 236130614}
   - component: {fileID: 236130613}
   - component: {fileID: 236130612}
+  - component: {fileID: 236130615}
   m_Layer: 5
   m_Name: SkinColorSlot9
   m_TagString: Untagged
@@ -5388,7 +5415,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 236130613}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 236130615}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &236130613
@@ -5428,6 +5466,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 236130610}
   m_CullTransparentMesh: 0
+--- !u!114 &236130615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 236130610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3d703eec59da481fb28e81864e6e797, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parent: {fileID: 1972404410}
+  assignedColor: {fileID: 2800000, guid: 240bb8e64e7a5684b8921fdcaa4d10b2, type: 3}
 --- !u!1 &236750399
 GameObject:
   m_ObjectHideFlags: 0
@@ -6900,6 +6952,7 @@ GameObject:
   - component: {fileID: 291293055}
   - component: {fileID: 291293054}
   - component: {fileID: 291293053}
+  - component: {fileID: 291293056}
   m_Layer: 5
   m_Name: SkinColorSlot21
   m_TagString: Untagged
@@ -6970,7 +7023,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 291293054}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 291293056}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &291293054
@@ -7010,6 +7074,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 291293051}
   m_CullTransparentMesh: 0
+--- !u!114 &291293056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 291293051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3d703eec59da481fb28e81864e6e797, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parent: {fileID: 1972404410}
+  assignedColor: {fileID: 2800000, guid: d2f699dc3deb4b24ea1f359cae3c114c, type: 3}
 --- !u!1 &293150128
 GameObject:
   m_ObjectHideFlags: 0
@@ -7127,6 +7205,7 @@ GameObject:
   - component: {fileID: 299485942}
   - component: {fileID: 299485941}
   - component: {fileID: 299485940}
+  - component: {fileID: 299485943}
   m_Layer: 5
   m_Name: SkinColorSlot18
   m_TagString: Untagged
@@ -7197,7 +7276,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 299485941}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 299485943}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &299485941
@@ -7237,6 +7327,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 299485938}
   m_CullTransparentMesh: 0
+--- !u!114 &299485943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 299485938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3d703eec59da481fb28e81864e6e797, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parent: {fileID: 1972404410}
+  assignedColor: {fileID: 2800000, guid: e65928cb5978d0b46ae1e7af38f235cf, type: 3}
 --- !u!1 &301097671
 GameObject:
   m_ObjectHideFlags: 0
@@ -8172,7 +8276,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &335770142
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8994,6 +9098,7 @@ GameObject:
   - component: {fileID: 369133561}
   - component: {fileID: 369133560}
   - component: {fileID: 369133559}
+  - component: {fileID: 369133562}
   m_Layer: 5
   m_Name: SkinColorSlot15
   m_TagString: Untagged
@@ -9064,7 +9169,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 369133560}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 369133562}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &369133560
@@ -9104,6 +9220,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 369133557}
   m_CullTransparentMesh: 0
+--- !u!114 &369133562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369133557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3d703eec59da481fb28e81864e6e797, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parent: {fileID: 1972404410}
+  assignedColor: {fileID: 2800000, guid: 3f78cf9914c02cc4484d7dcaf5f2e79f, type: 3}
 --- !u!1 &369490582
 GameObject:
   m_ObjectHideFlags: 0
@@ -9420,7 +9550,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &390271517
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10419,6 +10549,7 @@ GameObject:
   - component: {fileID: 436034840}
   - component: {fileID: 436034839}
   - component: {fileID: 436034838}
+  - component: {fileID: 436034841}
   m_Layer: 5
   m_Name: SkinColorSlot4
   m_TagString: Untagged
@@ -10489,7 +10620,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 436034839}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 436034841}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &436034839
@@ -10529,6 +10671,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 436034836}
   m_CullTransparentMesh: 0
+--- !u!114 &436034841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436034836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3d703eec59da481fb28e81864e6e797, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parent: {fileID: 1972404410}
+  assignedColor: {fileID: 2800000, guid: 7d532183a8216ff40889556578066fcf, type: 3}
 --- !u!1 &438189285
 GameObject:
   m_ObjectHideFlags: 0
@@ -12183,6 +12339,7 @@ GameObject:
   - component: {fileID: 506560256}
   - component: {fileID: 506560255}
   - component: {fileID: 506560254}
+  - component: {fileID: 506560257}
   m_Layer: 5
   m_Name: SkinColorSlot8
   m_TagString: Untagged
@@ -12253,7 +12410,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 506560255}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 506560257}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &506560255
@@ -12293,6 +12461,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 506560252}
   m_CullTransparentMesh: 0
+--- !u!114 &506560257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 506560252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3d703eec59da481fb28e81864e6e797, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parent: {fileID: 1972404410}
+  assignedColor: {fileID: 2800000, guid: bf1a0ad2d8e45f949bb5a27acb59c310, type: 3}
 --- !u!1 &508124060
 GameObject:
   m_ObjectHideFlags: 0
@@ -13089,6 +13271,7 @@ GameObject:
   - component: {fileID: 539561626}
   - component: {fileID: 539561625}
   - component: {fileID: 539561624}
+  - component: {fileID: 539561627}
   m_Layer: 5
   m_Name: SkinColorSlot7
   m_TagString: Untagged
@@ -13159,7 +13342,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 539561625}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 539561627}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &539561625
@@ -13199,6 +13393,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 539561622}
   m_CullTransparentMesh: 0
+--- !u!114 &539561627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 539561622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3d703eec59da481fb28e81864e6e797, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parent: {fileID: 1972404410}
+  assignedColor: {fileID: 2800000, guid: 50b547d648167c447b8bfb5fa6661262, type: 3}
 --- !u!1 &541155800
 GameObject:
   m_ObjectHideFlags: 0
@@ -13648,6 +13856,7 @@ GameObject:
   - component: {fileID: 562040672}
   - component: {fileID: 562040671}
   - component: {fileID: 562040670}
+  - component: {fileID: 562040673}
   m_Layer: 5
   m_Name: SkinColorSlot19
   m_TagString: Untagged
@@ -13718,7 +13927,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 562040671}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 562040673}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &562040671
@@ -13758,6 +13978,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 562040668}
   m_CullTransparentMesh: 0
+--- !u!114 &562040673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 562040668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3d703eec59da481fb28e81864e6e797, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parent: {fileID: 1972404410}
+  assignedColor: {fileID: 2800000, guid: 762b7486e4d47ae4ab44dd7dfa2ffa8f, type: 3}
 --- !u!1 &563346721
 GameObject:
   m_ObjectHideFlags: 0
@@ -16879,6 +17113,7 @@ GameObject:
   - component: {fileID: 687293808}
   - component: {fileID: 687293807}
   - component: {fileID: 687293806}
+  - component: {fileID: 687293809}
   m_Layer: 5
   m_Name: SkinColorSlot24
   m_TagString: Untagged
@@ -16949,7 +17184,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 687293807}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 687293809}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &687293807
@@ -16989,6 +17235,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 687293804}
   m_CullTransparentMesh: 0
+--- !u!114 &687293809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 687293804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3d703eec59da481fb28e81864e6e797, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parent: {fileID: 1972404410}
+  assignedColor: {fileID: 2800000, guid: 6522a3a13e79ddf45bafdd2ae79fe571, type: 3}
 --- !u!1 &687338216
 GameObject:
   m_ObjectHideFlags: 0
@@ -18169,7 +18429,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1170022286}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &736735819
 SkinnedMeshRenderer:
@@ -19484,6 +19744,7 @@ GameObject:
   - component: {fileID: 783664054}
   - component: {fileID: 783664053}
   - component: {fileID: 783664052}
+  - component: {fileID: 783664055}
   m_Layer: 5
   m_Name: SkinColorSlot5
   m_TagString: Untagged
@@ -19554,7 +19815,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 783664053}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 783664055}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &783664053
@@ -19594,6 +19866,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 783664050}
   m_CullTransparentMesh: 0
+--- !u!114 &783664055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 783664050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3d703eec59da481fb28e81864e6e797, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parent: {fileID: 1972404410}
+  assignedColor: {fileID: 2800000, guid: 4c34920feb1bbc841992549ef1679fa6, type: 3}
 --- !u!1 &792022819
 GameObject:
   m_ObjectHideFlags: 0
@@ -20720,7 +21006,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1170022286}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &861877928
 SkinnedMeshRenderer:
@@ -22031,8 +22317,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3d703eec59da481fb28e81864e6e797, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parent: {fileID: 0}
-  button: {fileID: 1899916892}
+  parent: {fileID: 1972404410}
+  assignedColor: {fileID: 2800000, guid: 66d53cc4dfab86d488e88a3a0043a08b, type: 3}
 --- !u!1 &901781433
 GameObject:
   m_ObjectHideFlags: 0
@@ -22829,6 +23115,7 @@ GameObject:
   - component: {fileID: 927820909}
   - component: {fileID: 927820908}
   - component: {fileID: 927820907}
+  - component: {fileID: 927820910}
   m_Layer: 5
   m_Name: SkinColorSlot22
   m_TagString: Untagged
@@ -22899,7 +23186,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 927820908}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 927820910}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &927820908
@@ -22939,6 +23237,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 927820905}
   m_CullTransparentMesh: 0
+--- !u!114 &927820910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 927820905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3d703eec59da481fb28e81864e6e797, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parent: {fileID: 1972404410}
+  assignedColor: {fileID: 2800000, guid: 8ac9deb833611d341a8ccf65a4bd0dda, type: 3}
 --- !u!1 &932099745
 GameObject:
   m_ObjectHideFlags: 0
@@ -25895,12 +26207,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1056103026}
-  m_LocalRotation: {x: -0.7071068, y: -0.000000029802322, z: -0.000000029802322, w: 0.7071068}
+  m_LocalRotation: {x: -0.70710677, y: -0, z: -0, w: 0.70710677}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1170022286}
-  m_RootOrder: 3
+  m_Father: {fileID: 1972404411}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &1056103028
 SkinnedMeshRenderer:
@@ -26021,6 +26333,7 @@ GameObject:
   - component: {fileID: 1057588900}
   - component: {fileID: 1057588899}
   - component: {fileID: 1057588898}
+  - component: {fileID: 1057588901}
   m_Layer: 5
   m_Name: SkinColorSlot26
   m_TagString: Untagged
@@ -26091,7 +26404,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1057588899}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1057588901}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1057588899
@@ -26131,6 +26455,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1057588896}
   m_CullTransparentMesh: 0
+--- !u!114 &1057588901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057588896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3d703eec59da481fb28e81864e6e797, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parent: {fileID: 1972404410}
+  assignedColor: {fileID: 2800000, guid: a3f343470240d33458e7e11375ea66ce, type: 3}
 --- !u!1 &1060345806
 GameObject:
   m_ObjectHideFlags: 0
@@ -26535,6 +26873,7 @@ GameObject:
   - component: {fileID: 1074806567}
   - component: {fileID: 1074806566}
   - component: {fileID: 1074806565}
+  - component: {fileID: 1074806568}
   m_Layer: 5
   m_Name: SkinColorSlot23
   m_TagString: Untagged
@@ -26605,7 +26944,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1074806566}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1074806568}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1074806566
@@ -26645,6 +26995,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1074806563}
   m_CullTransparentMesh: 0
+--- !u!114 &1074806568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1074806563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3d703eec59da481fb28e81864e6e797, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parent: {fileID: 1972404410}
+  assignedColor: {fileID: 2800000, guid: ecac6c1c63a03884582f65a981a9b94b, type: 3}
 --- !u!1 &1075777805
 GameObject:
   m_ObjectHideFlags: 0
@@ -26915,6 +27279,7 @@ GameObject:
   - component: {fileID: 1097568966}
   - component: {fileID: 1097568965}
   - component: {fileID: 1097568964}
+  - component: {fileID: 1097568967}
   m_Layer: 5
   m_Name: SkinColorSlot13
   m_TagString: Untagged
@@ -26985,7 +27350,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1097568965}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1097568967}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1097568965
@@ -27025,6 +27401,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1097568962}
   m_CullTransparentMesh: 0
+--- !u!114 &1097568967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097568962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3d703eec59da481fb28e81864e6e797, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parent: {fileID: 1972404410}
+  assignedColor: {fileID: 2800000, guid: 0a4651be77576994b9a5ededcdac3b18, type: 3}
 --- !u!1 &1098187941
 GameObject:
   m_ObjectHideFlags: 0
@@ -29613,6 +30003,7 @@ GameObject:
   - component: {fileID: 1168707241}
   - component: {fileID: 1168707240}
   - component: {fileID: 1168707239}
+  - component: {fileID: 1168707242}
   m_Layer: 5
   m_Name: SkinColorSlot20
   m_TagString: Untagged
@@ -29683,7 +30074,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1168707240}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1168707242}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1168707240
@@ -29723,6 +30125,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1168707237}
   m_CullTransparentMesh: 0
+--- !u!114 &1168707242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1168707237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3d703eec59da481fb28e81864e6e797, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parent: {fileID: 1972404410}
+  assignedColor: {fileID: 2800000, guid: 521990c0d3b6b1d4ebe322791647562a, type: 3}
 --- !u!1 &1169981284
 GameObject:
   m_ObjectHideFlags: 0
@@ -29828,8 +30244,6 @@ Transform:
   - {fileID: 1932559567}
   - {fileID: 1539947651}
   - {fileID: 451996699}
-  - {fileID: 1056103027}
-  - {fileID: 1742923132}
   - {fileID: 861877927}
   - {fileID: 2004411737}
   - {fileID: 736735818}
@@ -30374,6 +30788,7 @@ GameObject:
   - component: {fileID: 1182508022}
   - component: {fileID: 1182508021}
   - component: {fileID: 1182508020}
+  - component: {fileID: 1182508023}
   m_Layer: 5
   m_Name: SkinColorSlot12
   m_TagString: Untagged
@@ -30444,7 +30859,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1182508021}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1182508023}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1182508021
@@ -30484,6 +30910,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1182508018}
   m_CullTransparentMesh: 0
+--- !u!114 &1182508023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1182508018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3d703eec59da481fb28e81864e6e797, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parent: {fileID: 1972404410}
+  assignedColor: {fileID: 2800000, guid: 4c7bbd181f7605941a6736f9d775ab52, type: 3}
 --- !u!1 &1182865814
 GameObject:
   m_ObjectHideFlags: 0
@@ -31806,6 +32246,7 @@ GameObject:
   - component: {fileID: 1251373168}
   - component: {fileID: 1251373167}
   - component: {fileID: 1251373166}
+  - component: {fileID: 1251373169}
   m_Layer: 5
   m_Name: SkinColorSlot6
   m_TagString: Untagged
@@ -31876,7 +32317,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1251373167}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1251373169}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1251373167
@@ -31916,6 +32368,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1251373164}
   m_CullTransparentMesh: 0
+--- !u!114 &1251373169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1251373164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3d703eec59da481fb28e81864e6e797, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parent: {fileID: 1972404410}
+  assignedColor: {fileID: 2800000, guid: 19cef207c3b43464ca5694b92a874a44, type: 3}
 --- !u!1 &1253005106
 GameObject:
   m_ObjectHideFlags: 0
@@ -33237,6 +33703,7 @@ GameObject:
   - component: {fileID: 1311314149}
   - component: {fileID: 1311314148}
   - component: {fileID: 1311314147}
+  - component: {fileID: 1311314150}
   m_Layer: 5
   m_Name: SkinColorSlot25
   m_TagString: Untagged
@@ -33307,7 +33774,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1311314148}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1311314150}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1311314148
@@ -33347,6 +33825,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1311314145}
   m_CullTransparentMesh: 0
+--- !u!114 &1311314150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1311314145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3d703eec59da481fb28e81864e6e797, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parent: {fileID: 1972404410}
+  assignedColor: {fileID: 2800000, guid: 0f61aecbd0a40234dab96547bb2f6472, type: 3}
 --- !u!1 &1312422488
 GameObject:
   m_ObjectHideFlags: 0
@@ -36168,6 +36660,7 @@ GameObject:
   - component: {fileID: 1399806831}
   - component: {fileID: 1399806830}
   - component: {fileID: 1399806829}
+  - component: {fileID: 1399806832}
   m_Layer: 5
   m_Name: SkinColorSlot27
   m_TagString: Untagged
@@ -36238,7 +36731,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1399806830}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1399806832}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1399806830
@@ -36278,6 +36782,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1399806827}
   m_CullTransparentMesh: 0
+--- !u!114 &1399806832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1399806827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3d703eec59da481fb28e81864e6e797, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parent: {fileID: 1972404410}
+  assignedColor: {fileID: 2800000, guid: 31d931041f9aa5d409f154bd4ac6da93, type: 3}
 --- !u!1 &1400657660
 GameObject:
   m_ObjectHideFlags: 0
@@ -36290,6 +36808,7 @@ GameObject:
   - component: {fileID: 1400657664}
   - component: {fileID: 1400657663}
   - component: {fileID: 1400657662}
+  - component: {fileID: 1400657665}
   m_Layer: 5
   m_Name: SkinColorSlot17
   m_TagString: Untagged
@@ -36360,7 +36879,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1400657663}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1400657665}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1400657663
@@ -36400,6 +36930,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1400657660}
   m_CullTransparentMesh: 0
+--- !u!114 &1400657665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1400657660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3d703eec59da481fb28e81864e6e797, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parent: {fileID: 1972404410}
+  assignedColor: {fileID: 2800000, guid: 6e252b54c47ca1f479ca1b04659ef8f6, type: 3}
 --- !u!1 &1402954568
 GameObject:
   m_ObjectHideFlags: 0
@@ -38179,6 +38723,7 @@ GameObject:
   - component: {fileID: 1458760199}
   - component: {fileID: 1458760198}
   - component: {fileID: 1458760197}
+  - component: {fileID: 1458760200}
   m_Layer: 5
   m_Name: SkinColorSlot16
   m_TagString: Untagged
@@ -38249,7 +38794,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1458760198}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1458760200}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1458760198
@@ -38289,6 +38845,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1458760195}
   m_CullTransparentMesh: 0
+--- !u!114 &1458760200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1458760195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3d703eec59da481fb28e81864e6e797, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parent: {fileID: 1972404410}
+  assignedColor: {fileID: 2800000, guid: 75a808c001b23af41abff244e0f0ac70, type: 3}
 --- !u!1 &1462942890
 GameObject:
   m_ObjectHideFlags: 0
@@ -38449,6 +39019,7 @@ GameObject:
   - component: {fileID: 1463011762}
   - component: {fileID: 1463011761}
   - component: {fileID: 1463011760}
+  - component: {fileID: 1463011763}
   m_Layer: 5
   m_Name: SkinColorSlot10
   m_TagString: Untagged
@@ -38519,7 +39090,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1463011761}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1463011763}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1463011761
@@ -38559,6 +39141,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1463011758}
   m_CullTransparentMesh: 0
+--- !u!114 &1463011763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1463011758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3d703eec59da481fb28e81864e6e797, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parent: {fileID: 1972404410}
+  assignedColor: {fileID: 2800000, guid: 7db2f171ce598e0449106d42dda8a2cc, type: 3}
 --- !u!1 &1464365019
 GameObject:
   m_ObjectHideFlags: 0
@@ -43328,12 +43924,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1742923129}
-  m_LocalRotation: {x: -0.7071068, y: -0.000000029802322, z: -0.000000029802322, w: 0.7071068}
+  m_LocalRotation: {x: -0.70710677, y: -0, z: -0, w: 0.70710677}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1170022286}
-  m_RootOrder: 4
+  m_Father: {fileID: 1972404411}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1742923133
 MonoBehaviour:
@@ -43932,6 +44528,7 @@ Transform:
   - {fileID: 2000671426}
   - {fileID: 1856228}
   - {fileID: 1264076154}
+  - {fileID: 1972404411}
   m_Father: {fileID: 1390659524}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -46733,6 +47330,7 @@ GameObject:
   - component: {fileID: 1894538903}
   - component: {fileID: 1894538902}
   - component: {fileID: 1894538901}
+  - component: {fileID: 1894538904}
   m_Layer: 5
   m_Name: SkinColorSlot11
   m_TagString: Untagged
@@ -46803,7 +47401,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1894538902}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1894538904}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1894538902
@@ -46843,6 +47452,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1894538899}
   m_CullTransparentMesh: 0
+--- !u!114 &1894538904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1894538899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3d703eec59da481fb28e81864e6e797, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parent: {fileID: 1972404410}
+  assignedColor: {fileID: 2800000, guid: 3ca04785d0bd8844faac3d95aad90e63, type: 3}
 --- !u!1 &1895982274
 GameObject:
   m_ObjectHideFlags: 0
@@ -49218,6 +49841,38 @@ Transform:
   m_Father: {fileID: 1988027775}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1972404410
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1972404411}
+  m_Layer: 10
+  m_Name: challenger_skin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1972404411
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972404410}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1056103027}
+  - {fileID: 1742923132}
+  m_Father: {fileID: 1760992020}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1977291331
 GameObject:
   m_ObjectHideFlags: 0
@@ -50473,7 +51128,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1170022286}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &2004411738
 SkinnedMeshRenderer:
@@ -51216,7 +51871,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1170022286}
-  m_RootOrder: 8
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &2025818227
 SkinnedMeshRenderer:
@@ -53173,6 +53828,7 @@ GameObject:
   - component: {fileID: 2114971596}
   - component: {fileID: 2114971595}
   - component: {fileID: 2114971594}
+  - component: {fileID: 2114971597}
   m_Layer: 5
   m_Name: SkinColorSlot14
   m_TagString: Untagged
@@ -53243,7 +53899,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2114971595}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2114971597}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &2114971595
@@ -53283,6 +53950,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2114971592}
   m_CullTransparentMesh: 0
+--- !u!114 &2114971597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2114971592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3d703eec59da481fb28e81864e6e797, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parent: {fileID: 1972404410}
+  assignedColor: {fileID: 2800000, guid: 75d193d8811ee7644881491fa6632922, type: 3}
 --- !u!1 &2123099576
 GameObject:
   m_ObjectHideFlags: 0
