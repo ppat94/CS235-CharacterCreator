@@ -10,8 +10,7 @@ public class HairColorSlot : BaseColorSlot {
 
     public void OnClick() {
         // select the hair renderer child game object
-        //Transform t = trans.GetChild(0).GetChild(0);
-        //t.GetComponent<Renderer>().material.color = buttonColor;
-
+        GameObject curStyle = parent.transform.GetChild(0).GetChild(0).gameObject;
+        curStyle.GetComponent<Renderer>().material.color = buttonColor;
     }
 }

@@ -10,7 +10,7 @@ public class BeardColorSlot : BaseColorSlot {
 
     public void OnClick() {
         // select the beard renderer child game object
-        Transform t = trans.GetChild(1).GetChild(0);
-        t.GetComponent<Renderer>().material.color = buttonColor;
+        GameObject curStyle = parent.transform.GetChild(1).GetChild(0).gameObject;
+        curStyle.GetComponent<Renderer>().material.color = buttonColor;
     }
 }
