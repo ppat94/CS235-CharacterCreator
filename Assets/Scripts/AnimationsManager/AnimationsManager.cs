@@ -19,15 +19,19 @@ public class AnimationsManager : MonoBehaviour
         {
             case 0:
                 animator.runtimeAnimatorController = (RuntimeAnimatorController)Resources.Load("Chal_Idle", typeof(RuntimeAnimatorController));
+                BaseButton.ResetCamPos();
                 break;
             case 1:
                 animator.runtimeAnimatorController = (RuntimeAnimatorController)Resources.Load("Chal_Walk", typeof(RuntimeAnimatorController));
+                BaseButton.SetCamPosWalking();
                 break;
             case 2:
                 animator.runtimeAnimatorController = (RuntimeAnimatorController)Resources.Load("Vol_ArmRaise", typeof(RuntimeAnimatorController));
+                BaseButton.ResetCamPos();
                 break;
             default:
                 animator.runtimeAnimatorController = (RuntimeAnimatorController)Resources.Load("Chal_Idle", typeof(RuntimeAnimatorController));
+                BaseButton.ResetCamPos();
                 break;
 
         }

@@ -7,19 +7,34 @@ public abstract class BaseButton : MonoBehaviour {
     public GameObject button;
     public GameObject model;
     public RectTransform panelTransform;
-    protected Vector3 targetPanelScale = new Vector3(0.25f, 0.45f, 0.3f);
-    protected Vector3 startingPanelScale = new Vector3(0f, 0f, 0f);
-    protected Vector3 targetCamPos = new Vector3(3.55f, 1.8498f, 0.84f);
-    protected Vector3 startingCamPos = new Vector3(7.02f, 1.62f, 0.07f);
-    protected BaseButton prevButton;
     protected bool isPanelActive = false;
     protected static bool modelIsZoomed = false;
+    private readonly static Vector3 defaultCamPos = new Vector3(3.55f, 1.8498f, 0.84f); // need different camPos values since
+    private readonly static Vector3 walkingCamPos = new Vector3(4.05f, 1.65f, 0.8392f); // animation changes stance of the character
+    protected static Vector3 targetPanelScale = new Vector3(0.25f, 0.45f, 0.3f);
+    protected static Vector3 startingPanelScale = new Vector3(0f, 0f, 0f);
+    protected static Vector3 targetCamPos = defaultCamPos;
+    protected static Vector3 startingCamPos = new Vector3(7.02f, 1.62f, 0.07f);
+
     protected readonly float panelExpandSpeed = 2.5f;
-    protected readonly float modelExpandSpeed = 2.5f;
     protected readonly float camMovementSpeed = 2.5f;
 
     protected void Reset() {
         panelTransform.localScale = new Vector3(0f, 0f, 0f);
+    }
+
+    public static void ResetCamPos() {
+        targetCamPos = defaultCamPos;
+        MoveCamToTargetPos();
+    }
+
+    public static void SetCamPosWalking() {
+        targetCamPos = walkingCamPos;
+        MoveCamToTargetPos();
+    }
+
+    private static void MoveCamToTargetPos() {  // moves camera if animation was changed
+        if(modelIsZoomed) Camera.main.transform.position = targetCamPos;
     }
 
     public IEnumerator ShrinkPanel() {
