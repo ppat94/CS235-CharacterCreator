@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class AnimationsManager : MonoBehaviour
 {
@@ -9,7 +10,7 @@ public class AnimationsManager : MonoBehaviour
     List<string> animationNames = new List<string>() { "Idle", "Walk", "T-Pose" };
 
     public GameObject gameobject;
-    public Dropdown myDropdown;
+    public TMPro.TMP_Dropdown myDropdown;
     protected Animator animator;
     protected AnimatorOverrideController animatorOverrideController;
 
@@ -40,7 +41,7 @@ public class AnimationsManager : MonoBehaviour
     void Start()
     {
         PopulateList();
-        myDropdown = GetComponent<Dropdown>();
+        myDropdown = GetComponent<TMPro.TMP_Dropdown>();
         animator = gameobject.GetComponent<Animator>();
         animatorOverrideController = new AnimatorOverrideController(animator.runtimeAnimatorController);
         animator.runtimeAnimatorController = animatorOverrideController;
