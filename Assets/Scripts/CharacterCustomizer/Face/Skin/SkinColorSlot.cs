@@ -3,19 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class SkinColorSlot : BaseColorSlot
-{
-    public new void Awake()
-    {
-        base.Awake();
-    }
+public class SkinColorSlot : MonoBehaviour {
+    public GameObject parent;
+    public Texture assignedColor;
 
-    public void OnClick()
-    {
-        // select the hair renderer child game object
-        //Transform t = trans.GetChild(4);
-        //t.GetComponent<Renderer>().material.color = buttonColor;
-        //model.transform.Find("challenger_head").GetComponent<Renderer>().material.color = buttonColor;
-        //model.transform.Find("challenger_fingers").GetComponent<Renderer>().material.color = buttonColor;
+    public void OnClick() {
+        Transform parentTransform = parent.transform;
+
+        for(int i = 0; i < parentTransform.childCount; i++) {
+            parentTransform.GetChild(i).GetComponent<Renderer>().sharedMaterial.mainTexture = assignedColor;
+        }
     }
 }
