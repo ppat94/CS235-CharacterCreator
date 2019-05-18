@@ -9,8 +9,8 @@ public abstract class BaseButton : MonoBehaviour {
     public RectTransform panelTransform;
     protected bool isPanelActive = false;
     protected static bool modelIsZoomed = false;
-    private readonly static Vector3 defaultCamPos = new Vector3(3.55f, 1.8f, 0.84f); // need different camPos values since
-    private readonly static Vector3 walkingCamPos = new Vector3(4.05f, 1.62f, 0.7f); // animation changes stance of the character
+    private readonly static Vector3 defaultCamPos = new Vector3(3.55f, 1.8f, 0.93f); // need different camPos values since
+    private readonly static Vector3 walkingCamPos = new Vector3(4.21f, 1.62f, 0.7f); // animation changes stance of the character
     protected static Vector3 targetPanelScale = new Vector3(0.25f, 0.45f, 0.3f);
     protected static Vector3 startingPanelScale = new Vector3(0f, 0f, 0f);
     protected static Vector3 targetCamPos = defaultCamPos;
